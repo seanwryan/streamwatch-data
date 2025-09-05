@@ -1,0 +1,751 @@
+sheet_name,current_name,suggested_name,naming_reason,data_type,null_percentage,unique_count,sample_values
+BACT Data,Unnamed: 14,numeric_column_ 14,"Numeric column, position-based naming",float64,100.0%,0,
+BACT Data,Unnamed: 17,text_column_ 17,"Text column, position-based naming",object,95.1%,32,AC1; 20.25; 21.18; 19.5; 18.933333333333334
+BACT Data,Unnamed: 18,text_column_ 18,"Text column, position-based naming",object,95.2%,33,AC5; 20; 15.625; 5.25; 19.6
+BACT Data,Unnamed: 19,text_column_ 19,"Text column, position-based naming",object,94.5%,40,APL1; 23.666666666666668; 15; 24.5; 25
+BACT Data,Unnamed: 20,text_column_ 20,"Text column, position-based naming",object,94.9%,38,ATL1; 21.5; 15; 23.666666666666668; 24.45
+BACT Data,Unnamed: 21,text_column_ 21,"Text column, position-based naming",object,94.6%,42,AWL1; 22.615384615384617; 14; 22.875; 22.5
+BACT Data,Unnamed: 22,text_column_ 22,"Text column, position-based naming",object,95.7%,30,AX1; 21.75; 23.48; 20.4; 24.25
+BACT Data,Unnamed: 23,text_column_ 23,"Text column, position-based naming",object,96.3%,19,BB1; 23.166666666666668; 24.4; 24; 24.5
+BACT Data,Unnamed: 24,text_column_ 24,"Text column, position-based naming",object,95.1%,34,BD1a; 19.25; 13; 20.5; 20.333333333333332
+BACT Data,Unnamed: 25,text_column_ 25,"Text column, position-based naming",object,96.0%,27,BLDL1; 22.75; 15.5; 25.166666666666668; 208.71999999999997
+BACT Data,Unnamed: 26,text_column_ 26,"Text column, position-based naming",object,94.8%,39,BRL1; 23.38888888888889; 12; 24.75; 24.875
+BACT Data,Unnamed: 27,text_column_ 27,"Text column, position-based naming",object,95.1%,35,CB3; 23.333333333333332; 25.3; 25; 25.75
+BACT Data,Unnamed: 28,chloride_value,Contains water quality parameter: chloride,object,94.8%,39,CL2; 23.5; 16; 25.75; 22
+BACT Data,Unnamed: 29,chloride_value,Contains water quality parameter: chloride,object,95.2%,33,CL4; 22.681818181818183; 15; 22.666666666666668; 24.125
+BACT Data,Unnamed: 30,chloride_value,Contains water quality parameter: chloride,object,94.8%,39,CL5; 20.416666666666668; 12; 23; 21.333333333333332
+BACT Data,Unnamed: 31,text_column_ 31,"Text column, position-based naming",object,94.1%,47,COL1; 24.454545454545453; 15; 25.333333333333332; 25
+BACT Data,Unnamed: 32,text_column_ 32,"Text column, position-based naming",object,95.0%,37,CTL1; 23.25; 23.4; 21.5; 20.333333333333332
+BACT Data,Unnamed: 33,text_column_ 33,"Text column, position-based naming",object,94.5%,43,CVL1; 24.88888888888889; 26; 25.25; 24.25
+BACT Data,Unnamed: 34,text_column_ 34,"Text column, position-based naming",object,95.1%,38,DAM-7; 24.125; 25; 24.25; 23.666666666666668
+BACT Data,Unnamed: 35,text_column_ 35,"Text column, position-based naming",object,94.6%,43,DB1; 23.3; 25; 23.166666666666668; 23.083333333333332
+BACT Data,Unnamed: 36,text_column_ 36,"Text column, position-based naming",object,96.0%,27,DE1; 23.25; 243.1; DB1; 0.059666666666666666
+BACT Data,Unnamed: 37,text_column_ 37,"Text column, position-based naming",object,95.7%,30,DP3; 20; 20.77777777777778; 18; 20.25
+BACT Data,Unnamed: 38,text_column_ 38,"Text column, position-based naming",object,94.7%,42,DS21-1; 20.916666666666668; 21.166666666666668; 20.666666666666668; 25.1
+BACT Data,Unnamed: 39,text_column_ 39,"Text column, position-based naming",object,94.7%,42,ETL1; 23; 13; 24; 24.5
+BACT Data,Unnamed: 40,text_column_ 40,"Text column, position-based naming",object,94.2%,46,GMP1; 23.5; 15; 24; 25.25
+BACT Data,Unnamed: 41,text_column_ 41,"Text column, position-based naming",object,94.7%,43,GRPL1; 22.916666666666668; 22.833333333333332; 23; 22.9375
+BACT Data,Unnamed: 42,text_column_ 42,"Text column, position-based naming",object,95.2%,37,HA1; 22.6; 23; 22.5; 22.2
+BACT Data,Unnamed: 43,text_column_ 43,"Text column, position-based naming",object,94.9%,40,HB3; 20.0625; 20.5; 20.666666666666668; 19.5
+BACT Data,Unnamed: 44,text_column_ 44,"Text column, position-based naming",object,94.8%,38,HL2; 24; 23.178571428571427; 21; 20.75
+BACT Data,Unnamed: 45,text_column_ 45,"Text column, position-based naming",object,95.8%,30,HO2; 23.5625; 21; 22.5; 25.375
+BACT Data,Unnamed: 46,text_column_ 46,"Text column, position-based naming",object,96.0%,27,LSC1; 21.666666666666668; 25.333333333333332; 25; 25.5
+BACT Data,Unnamed: 47,text_column_ 47,"Text column, position-based naming",object,95.7%,31,LSP1; 24.75; 27.333333333333332; 28; 27
+BACT Data,Unnamed: 48,text_column_ 48,"Text column, position-based naming",object,95.6%,32,MB3; 19.714285714285715; 19; 17; 20.5
+BACT Data,Unnamed: 49,text_column_ 49,"Text column, position-based naming",object,95.5%,33,MDWL1; 23.666666666666668; 22.944444444444443; 21.5; 20.75
+BACT Data,Unnamed: 50,text_column_ 50,"Text column, position-based naming",object,95.2%,35,MI4; 19.375; 17.0625; 10; 16.4
+BACT Data,Unnamed: 51,text_column_ 51,"Text column, position-based naming",object,96.3%,23,MO1; 21.875; 634.0666666666667; MI4; 0.04815
+BACT Data,Unnamed: 52,text_column_ 52,"Text column, position-based naming",object,95.1%,37,MR1; 23.88888888888889; 25.5; 23.666666666666668; 23.7
+BACT Data,Unnamed: 53,text_column_ 53,"Text column, position-based naming",object,95.8%,31,MR3; 24.8; 25; 24.75; 136.7
+BACT Data,Unnamed: 54,chloride_value,Contains water quality parameter: chloride,object,95.2%,37,MRCL1; 26.25; 19; 27.333333333333332; 27.25
+BACT Data,Unnamed: 55,text_column_ 55,"Text column, position-based naming",object,94.6%,43,PL1; 23.5; 14; 22.25; 26
+BACT Data,Unnamed: 56,text_column_ 56,"Text column, position-based naming",object,94.9%,41,PMRL1; 21.9375; 14; 23; 23.166666666666668
+BACT Data,Unnamed: 57,text_column_ 57,"Text column, position-based naming",object,95.3%,35,PNVL1; 24.6; 25; 24.5; 25.1
+BACT Data,Unnamed: 58,text_column_ 58,"Text column, position-based naming",object,95.3%,36,PP1; 23.444444444444443; 17; 23.75; 24.75
+BACT Data,Unnamed: 59,text_column_ 59,"Text column, position-based naming",object,95.5%,34,PR1; 21.5; 22.5; 21.25; 23.375
+BACT Data,Unnamed: 60,text_column_ 60,"Text column, position-based naming",object,95.0%,37,PRP1; 19.916666666666668; 15; 21; 23
+BACT Data,Unnamed: 61,text_column_ 61,"Text column, position-based naming",object,95.1%,36,RBA; 24.333333333333332; 22.964285714285715; 21.5; 23.8
+BACT Data,Unnamed: 62,text_column_ 62,"Text column, position-based naming",object,95.7%,31,RO1a; 21.666666666666668; 23.7; 23; 23.875
+BACT Data,Unnamed: 63,text_column_ 63,"Text column, position-based naming",object,94.9%,39,ROL1; 23.85; 15; 24.5; 25
+BACT Data,Unnamed: 64,text_column_ 64,"Text column, position-based naming",object,95.6%,31,SBA; 21.5; 24.25; 23.8; 25
+BACT Data,Unnamed: 65,text_column_ 65,"Text column, position-based naming",object,96.6%,22,SC1; 23.25; 1479.8999999999999; SBA; 0.042597499999999996
+BACT Data,Unnamed: 66,text_column_ 66,"Text column, position-based naming",object,96.1%,27,SC2; 22.666666666666668; 17.5; 17.25; 18
+BACT Data,Unnamed: 67,text_column_ 67,"Text column, position-based naming",object,96.0%,28,SM1; 21.666666666666668; 21.625; 21.642857142857142; 452.23333333333335
+BACT Data,Unnamed: 68,text_column_ 68,"Text column, position-based naming",object,95.1%,36,SPBP1; 24.444444444444443; 16; 24.625; 26.375
+BACT Data,Unnamed: 69,text_column_ 69,"Text column, position-based naming",object,96.2%,30,SPBP2; 20.75; 15; 22.666666666666668; 26.75
+BACT Data,Unnamed: 70,text_column_ 70,"Text column, position-based naming",object,96.7%,25,SW1; 21.22222222222222; 22; 21.125; 22.6
+BACT Data,Unnamed: 71,text_column_ 71,"Text column, position-based naming",object,96.7%,28,SYL1; 24.5; 27; 25.375; 23
+BACT Data,Unnamed: 72,text_column_ 72,"Text column, position-based naming",object,96.7%,29,SYNL1; 21.88888888888889; 21.333333333333332; 23; 20.5
+BACT Data,Unnamed: 73,text_column_ 73,"Text column, position-based naming",object,97.9%,16,CC1; 19; 13; 21; 814.36
+BACT Data,Unnamed: 74,text_column_ 74,"Text column, position-based naming",object,96.2%,32,Grand Total; 22.644385026737968; 14.69047619047619; 23.457894736842107; 23.760162601626018
+Standard Violations,Unnamed: 0,numeric_column_ 0,"Numeric column, position-based naming",float64,100.0%,0,
+Standard Violations,Unnamed: 1,temperature_value,Contains water quality parameter: temperature,object,13.1%,109,Temperature; Site; 128; AC1; AC5
+Standard Violations,Unnamed: 2,text_column_ 2,"Text column, position-based naming",object,12.6%,34,Hits; 0; 1; 2; 7
+Standard Violations,Unnamed: 3,text_column_ 3,"Text column, position-based naming",object,13.1%,133,Points; 2; 8; 17; 11
+Standard Violations,Unnamed: 4,text_column_ 4,"Text column, position-based naming",object,13.1%,70,%; 0; 0.0025188916876574307; 0.011904761904761904; 0.024390243902439025
+Standard Violations,Unnamed: 5,nitrate_value,Contains water quality parameter: nitrate,object,84.6%,4,Nitrate; Exc; 0; 1
+Standard Violations,Unnamed: 6,nitrate_value,Contains water quality parameter: nitrate,object,15.0%,110,Nitrate; Site; 128; AC1; AC5
+Standard Violations,Unnamed: 7,text_column_ 7,"Text column, position-based naming",object,15.0%,8,Hits; 0; 1; 2; 3
+Standard Violations,Unnamed: 8,text_column_ 8,"Text column, position-based naming",object,14.5%,125,Points; 2; 8; 17; 11
+Standard Violations,Unnamed: 9,text_column_ 9,"Text column, position-based naming",object,15.0%,51,%; 0; 0.0018484288354898336; 8.01153661272232e-05; 0.011904761904761904
+Standard Violations,Unnamed: 10,text_column_ 10,"Text column, position-based naming",object,85.0%,2,%; 1
+Standard Violations,Unnamed: 11,ph_value,Contains water quality parameter: ph,object,12.6%,106,Phosphate; Site; 128; AC1; AC5
+Standard Violations,Unnamed: 12,text_column_ 12,"Text column, position-based naming",object,13.1%,97,Hits; 2; 8; 17; 11
+Standard Violations,Unnamed: 13,text_column_ 13,"Text column, position-based naming",object,13.1%,132,Points; 2; 8; 17; 11
+Standard Violations,Unnamed: 14,text_column_ 14,"Text column, position-based naming",object,21.5%,42,%; 1; 0; 0.016018306636155607; 0.002840909090909091
+Standard Violations,Unnamed: 15,text_column_ 15,"Text column, position-based naming",object,93.9%,13,Pts; 276; 320; 326; 285
+Standard Violations,Unnamed: 16,text_column_ 16,"Text column, position-based naming",object,93.9%,10,%; 0.021739130434782608; 0.003125; 0.003067484662576687; 0.0035087719298245615
+Standard Violations,Unnamed: 17,dissolved_oxygen_value,Contains water quality parameter: dissolved_oxygen,object,84.6%,21,Dissolved Oxygen; Exc; 9; 4; 10
+Standard Violations,Unnamed: 18,text_column_ 18,"Text column, position-based naming",object,85.0%,30,Pts; 209; 459; 575; 520
+Standard Violations,Unnamed: 19,text_column_ 19,"Text column, position-based naming",object,85.0%,32,%; 0.0430622009569378; 0.008714596949891068; 0.017391304347826087; 0.01730769230769231
+Standard Violations,Unnamed: 20,numeric_column_ 20,"Numeric column, position-based naming",float64,100.0%,0,
+Standard Violations,Unnamed: 23,text_column_ 23,"Text column, position-based naming",object,88.8%,5,AC1; 0; 2; 6; 8
+Standard Violations,Unnamed: 24,text_column_ 24,"Text column, position-based naming",object,86.0%,9,AC5; 0; 2; 12; 3
+Standard Violations,Unnamed: 25,text_column_ 25,"Text column, position-based naming",object,88.8%,5,AX1; 0; 8; 3; 11
+Standard Violations,Unnamed: 26,text_column_ 26,"Text column, position-based naming",object,91.6%,4,AX2; 0; 10; 2
+Standard Violations,Unnamed: 27,text_column_ 27,"Text column, position-based naming",object,18.7%,27,BB1; 0; 13; 23; 27
+Standard Violations,Unnamed: 28,text_column_ 28,"Text column, position-based naming",object,36.9%,17,BD1; 0; 1; 11; 24
+Standard Violations,Unnamed: 29,text_column_ 29,"Text column, position-based naming",object,24.3%,21,BD2; 0; 12; 27; 24
+Standard Violations,Unnamed: 30,text_column_ 30,"Text column, position-based naming",object,27.1%,17,BD3; 0; 12; 27; 23
+Standard Violations,Unnamed: 31,text_column_ 31,"Text column, position-based naming",object,19.2%,22,BD4; 0; 12; 26; 25
+Standard Violations,Unnamed: 32,text_column_ 32,"Text column, position-based naming",object,63.6%,14,BK1; 0; 6; 8; 4
+Standard Violations,Unnamed: 33,text_column_ 33,"Text column, position-based naming",object,50.0%,23,CB1; 0; 12; 25; 22
+Standard Violations,Unnamed: 34,text_column_ 34,"Text column, position-based naming",object,72.0%,12,CB2; 0; 8; 11; 9
+Standard Violations,Unnamed: 35,text_column_ 35,"Text column, position-based naming",object,78.0%,10,CB3; 0; 8; 4; 7
+Standard Violations,Unnamed: 36,text_column_ 36,"Text column, position-based naming",object,51.4%,19,CB4; 0; 7; 21; 23
+Standard Violations,Unnamed: 37,text_column_ 37,"Text column, position-based naming",object,77.6%,12,CB5; 0; 3; 9; 5
+Standard Violations,Unnamed: 38,text_column_ 38,"Text column, position-based naming",object,88.8%,5,CC1; 0; 3; 6; 1
+Standard Violations,Unnamed: 39,text_column_ 39,"Text column, position-based naming",object,69.2%,11,CH1; 0; 2; 10; 9
+Standard Violations,Unnamed: 40,text_column_ 40,"Text column, position-based naming",object,91.6%,3,CH2; 0; 2
+Standard Violations,Unnamed: 41,chloride_value,Contains water quality parameter: chloride,object,25.2%,22,CL1; 0; 11; 26; 25
+Standard Violations,Unnamed: 42,chloride_value,Contains water quality parameter: chloride,object,33.2%,22,CL2; 0; 12; 22; 25
+Standard Violations,Unnamed: 43,chloride_value,Contains water quality parameter: chloride,object,26.6%,26,CL3; 0; 12; 25; 26
+Standard Violations,Unnamed: 44,text_column_ 44,"Text column, position-based naming",object,88.8%,5,COL1; 0; 4; 3; 7
+Standard Violations,Unnamed: 45,text_column_ 45,"Text column, position-based naming",object,35.0%,20,CR1; 0; 8; 20; 23
+Standard Violations,Unnamed: 46,text_column_ 46,"Text column, position-based naming",object,18.7%,25,DB1; 0; 12; 24; 25
+Standard Violations,Unnamed: 47,text_column_ 47,"Text column, position-based naming",object,62.6%,16,DBA; 0; 4; 9; 19
+Standard Violations,Unnamed: 48,text_column_ 48,"Text column, position-based naming",object,81.3%,8,DE1; 0; 12; 3; 2
+Standard Violations,Unnamed: 49,text_column_ 49,"Text column, position-based naming",object,62.6%,11,DP3; 0; 12; 16; 8
+Standard Violations,Unnamed: 50,text_column_ 50,"Text column, position-based naming",object,88.8%,7,EB1; 0; 4; 3; 7
+Standard Violations,Unnamed: 51,text_column_ 51,"Text column, position-based naming",object,27.6%,15,HA1; 0; 12; 24; 26
+Standard Violations,Unnamed: 52,text_column_ 52,"Text column, position-based naming",object,72.0%,8,HA2; 0; 3; 12; 10
+Standard Violations,Unnamed: 53,text_column_ 53,"Text column, position-based naming",object,72.4%,10,HB1; 0; 12; 26; 21
+Standard Violations,Unnamed: 54,text_column_ 54,"Text column, position-based naming",object,72.9%,12,HB2; 0; 5; 26; 24
+Standard Violations,Unnamed: 55,text_column_ 55,"Text column, position-based naming",object,49.5%,15,HB3; 0; 2; 23; 24
+Standard Violations,Unnamed: 56,text_column_ 56,"Text column, position-based naming",object,40.2%,24,HL1; 0; 1; 12; 23
+Standard Violations,Unnamed: 57,text_column_ 57,"Text column, position-based naming",object,74.8%,10,HL2; 0; 4; 9; 5
+Standard Violations,Unnamed: 58,text_column_ 58,"Text column, position-based naming",object,82.2%,6,HL3; 0; 1; 5; 7
+Standard Violations,Unnamed: 59,text_column_ 59,"Text column, position-based naming",object,18.7%,19,HO1; 0; 12; 24; 26
+Standard Violations,Unnamed: 60,text_column_ 60,"Text column, position-based naming",object,65.0%,14,HO2; 0; 1; 9; 10
+Standard Violations,Unnamed: 61,text_column_ 61,"Text column, position-based naming",object,73.4%,11,HO3; 0; 1; 3; 9
+Standard Violations,Unnamed: 62,text_column_ 62,"Text column, position-based naming",object,86.4%,7,JC6; 0; 2; 11; 3
+Standard Violations,Unnamed: 63,text_column_ 63,"Text column, position-based naming",object,88.8%,6,LSC1; 0; 2; 3; 5
+Standard Violations,Unnamed: 64,text_column_ 64,"Text column, position-based naming",object,60.7%,16,MB1; 0; 12; 25; 22
+Standard Violations,Unnamed: 65,text_column_ 65,"Text column, position-based naming",object,88.8%,6,MB2; 0; 2; 3; 5
+Standard Violations,Unnamed: 66,text_column_ 66,"Text column, position-based naming",object,88.8%,7,MB3; 0; 10; 2; 12
+Standard Violations,Unnamed: 67,text_column_ 67,"Text column, position-based naming",object,79.4%,9,MB5; 0; 6; 19; 20
+Standard Violations,Unnamed: 68,text_column_ 68,"Text column, position-based naming",object,84.6%,9,MI4; 0; 2; 9; 11
+Standard Violations,Unnamed: 69,text_column_ 69,"Text column, position-based naming",object,85.0%,7,MI4b; 0; 1; 3; 4
+Standard Violations,Unnamed: 70,text_column_ 70,"Text column, position-based naming",object,84.6%,6,MO1; 0; 3; 1; 4
+Standard Violations,Unnamed: 71,text_column_ 71,"Text column, position-based naming",object,29.9%,24,MR1; 0; 1; 12; 25
+Standard Violations,Unnamed: 72,text_column_ 72,"Text column, position-based naming",object,21.5%,23,MR2; 0; 12; 23; 26
+Standard Violations,Unnamed: 73,text_column_ 73,"Text column, position-based naming",object,29.9%,22,MR3; 0; 12; 23; 21
+Standard Violations,Unnamed: 74,text_column_ 74,"Text column, position-based naming",object,51.4%,16,MRA; 0; 3; 15; 11
+Standard Violations,Unnamed: 75,text_column_ 75,"Text column, position-based naming",object,72.9%,11,MRB; 0; 3; 10; 5
+Standard Violations,Unnamed: 76,text_column_ 76,"Text column, position-based naming",object,77.1%,11,MRC; 0; 3; 1; 2
+Standard Violations,Unnamed: 77,text_column_ 77,"Text column, position-based naming",object,86.4%,8,MRD; 0; 1; 3; 4
+Standard Violations,Unnamed: 78,text_column_ 78,"Text column, position-based naming",object,36.9%,17,PL1; 0; 3; 7; 21
+Standard Violations,Unnamed: 79,text_column_ 79,"Text column, position-based naming",object,49.1%,22,PR1; 0; 23; 21; 16
+Standard Violations,Unnamed: 80,text_column_ 80,"Text column, position-based naming",object,86.0%,6,PR2; 0; 1; 8; 9
+Standard Violations,Unnamed: 81,text_column_ 81,"Text column, position-based naming",object,84.1%,5,PR2a; 0; 1; 2; SB2
+Standard Violations,Unnamed: 82,text_column_ 82,"Text column, position-based naming",object,67.8%,12,RBA; 0; 2; 9; 11
+Standard Violations,Unnamed: 83,text_column_ 83,"Text column, position-based naming",object,73.4%,11,RO1; 0; 5; 9; 4
+Standard Violations,Unnamed: 84,text_column_ 84,"Text column, position-based naming",object,25.7%,20,SB1; 0; 12; 24; 25
+Standard Violations,Unnamed: 85,text_column_ 85,"Text column, position-based naming",object,20.1%,21,SB2; 0; 1; 13; 26
+Standard Violations,Unnamed: 86,text_column_ 86,"Text column, position-based naming",object,70.1%,10,SB3; 0; 12; 23; 13
+Standard Violations,Unnamed: 87,text_column_ 87,"Text column, position-based naming",object,25.7%,20,SB4; 0; 13; 23; 24
+Standard Violations,Unnamed: 88,text_column_ 88,"Text column, position-based naming",object,21.0%,18,SB5; 0; 14; 26; 25
+Standard Violations,Unnamed: 89,text_column_ 89,"Text column, position-based naming",object,79.9%,7,SBA; 0; 2; 6; 4
+Standard Violations,Unnamed: 90,text_column_ 90,"Text column, position-based naming",object,83.6%,7,SC1; 0; 4; 5; 2
+Standard Violations,Unnamed: 91,text_column_ 91,"Text column, position-based naming",object,88.8%,7,SC2; 0; 2; 7; 9
+Standard Violations,Unnamed: 92,text_column_ 92,"Text column, position-based naming",object,88.3%,6,SC3; 0; 8; 3; 11
+Standard Violations,Unnamed: 93,text_column_ 93,"Text column, position-based naming",object,53.7%,22,SHA; 0; 1; 10; 14
+Standard Violations,Unnamed: 94,text_column_ 94,"Text column, position-based naming",object,39.3%,19,SM1; 0; 13; 22; 19
+Standard Violations,Unnamed: 95,text_column_ 95,"Text column, position-based naming",object,90.7%,6,SW1; 0; 9; 3; 12
+Standard Violations,Unnamed: 96,text_column_ 96,"Text column, position-based naming",object,57.9%,17,TM1; 0; 1; 4; 18
+Standard Violations,Unnamed: 97,text_column_ 97,"Text column, position-based naming",object,22.9%,78,Grand Total; 0; 1; 2; 7
+Standard Violations,Unnamed: 98,numeric_column_ 98,"Numeric column, position-based naming",float64,100.0%,0,
+Standard Violations,Unnamed: 101,text_column_ 101,"Text column, position-based naming",object,88.8%,4,AC1; 2; 6; 8
+Standard Violations,Unnamed: 102,text_column_ 102,"Text column, position-based naming",object,86.0%,7,AC5; 2; 12; 3; 17
+Standard Violations,Unnamed: 103,text_column_ 103,"Text column, position-based naming",object,88.8%,6,AX1; 8; 3; 11; 2
+Standard Violations,Unnamed: 104,text_column_ 104,"Text column, position-based naming",object,91.6%,3,AX2; 9; 10
+Standard Violations,Unnamed: 105,text_column_ 105,"Text column, position-based naming",object,18.7%,28,BB1; 11; 23; 27; 20
+Standard Violations,Unnamed: 106,text_column_ 106,"Text column, position-based naming",object,36.9%,21,BD1; 1; 11; 24; 22
+Standard Violations,Unnamed: 107,text_column_ 107,"Text column, position-based naming",object,24.3%,27,BD2; 12; 27; 24; 22
+Standard Violations,Unnamed: 108,text_column_ 108,"Text column, position-based naming",object,27.1%,20,BD3; 12; 27; 24; 26
+Standard Violations,Unnamed: 109,text_column_ 109,"Text column, position-based naming",object,19.2%,29,BD4; 12; 25; 16; 11
+Standard Violations,Unnamed: 110,text_column_ 110,"Text column, position-based naming",object,63.6%,15,BK1; 6; 5; 4; 8
+Standard Violations,Unnamed: 111,text_column_ 111,"Text column, position-based naming",object,50.0%,27,CB1; 12; 25; 27; 21
+Standard Violations,Unnamed: 112,text_column_ 112,"Text column, position-based naming",object,72.0%,10,CB2; 8; 11; 7; 9
+Standard Violations,Unnamed: 113,text_column_ 113,"Text column, position-based naming",object,78.0%,12,CB3; 8; 4; 7; 1
+Standard Violations,Unnamed: 114,text_column_ 114,"Text column, position-based naming",object,51.4%,20,CB4; 6; 18; 22; 9
+Standard Violations,Unnamed: 115,text_column_ 115,"Text column, position-based naming",object,77.6%,10,CB5; 3; 9; 5; 8
+Standard Violations,Unnamed: 116,text_column_ 116,"Text column, position-based naming",object,88.8%,3,CC1; 3; 6
+Standard Violations,Unnamed: 117,text_column_ 117,"Text column, position-based naming",object,69.2%,11,CH1; 2; 10; 9; 4
+Standard Violations,Unnamed: 118,text_column_ 118,"Text column, position-based naming",object,91.6%,2,CH2; 2
+Standard Violations,Unnamed: 119,chloride_value,Contains water quality parameter: chloride,object,25.2%,23,CL1; 12; 26; 25; 24
+Standard Violations,Unnamed: 120,chloride_value,Contains water quality parameter: chloride,object,33.2%,27,CL2; 12; 20; 25; 21
+Standard Violations,Unnamed: 121,chloride_value,Contains water quality parameter: chloride,object,26.6%,29,CL3; 12; 25; 21; 9
+Standard Violations,Unnamed: 122,text_column_ 122,"Text column, position-based naming",object,88.8%,6,COL1; 4; 3; 7; 2
+Standard Violations,Unnamed: 123,text_column_ 123,"Text column, position-based naming",object,35.0%,26,CR1; 8; 22; 25; 23
+Standard Violations,Unnamed: 124,text_column_ 124,"Text column, position-based naming",object,18.7%,26,DB1; 12; 23; 24; 13
+Standard Violations,Unnamed: 125,text_column_ 125,"Text column, position-based naming",object,62.6%,13,DBA; 4; 9; 19; 3
+Standard Violations,Unnamed: 126,text_column_ 126,"Text column, position-based naming",object,81.3%,10,DE1; 12; 3; 2; 9
+Standard Violations,Unnamed: 127,text_column_ 127,"Text column, position-based naming",object,62.6%,13,DP3; 12; 16; 8; 10
+Standard Violations,Unnamed: 128,text_column_ 128,"Text column, position-based naming",object,88.8%,6,EB1; 4; 3; 7; 2
+Standard Violations,Unnamed: 129,text_column_ 129,"Text column, position-based naming",object,27.6%,23,HA1; 12; 24; 27; 25
+Standard Violations,Unnamed: 130,text_column_ 130,"Text column, position-based naming",object,72.0%,8,HA2; 3; 12; 10; 11
+Standard Violations,Unnamed: 131,text_column_ 131,"Text column, position-based naming",object,72.4%,20,HB1; 12; 25; 26; 21
+Standard Violations,Unnamed: 132,text_column_ 132,"Text column, position-based naming",object,72.9%,21,HB2; 5; 26; 24; 25
+Standard Violations,Unnamed: 133,text_column_ 133,"Text column, position-based naming",object,49.5%,20,HB3; 2; 24; 22; 23
+Standard Violations,Unnamed: 134,text_column_ 134,"Text column, position-based naming",object,40.2%,26,HL1; 12; 24; 22; 23
+Standard Violations,Unnamed: 135,text_column_ 135,"Text column, position-based naming",object,74.8%,19,HL2; 3; 9; 5; 4
+Standard Violations,Unnamed: 136,text_column_ 136,"Text column, position-based naming",object,82.2%,12,HL3; 1; 5; 7; HO2
+Standard Violations,Unnamed: 137,text_column_ 137,"Text column, position-based naming",object,18.7%,25,HO1; 12; 23; 26; 21
+Standard Violations,Unnamed: 138,text_column_ 138,"Text column, position-based naming",object,65.0%,14,HO2; 1; 9; 10; 7
+Standard Violations,Unnamed: 139,text_column_ 139,"Text column, position-based naming",object,73.4%,15,HO3; 3; 8; 11; 1
+Standard Violations,Unnamed: 140,text_column_ 140,"Text column, position-based naming",object,86.4%,11,JC6; 1; 11; 3; 15
+Standard Violations,Unnamed: 141,text_column_ 141,"Text column, position-based naming",object,88.8%,7,LSC1; 2; 3; 5; MB3
+Standard Violations,Unnamed: 142,text_column_ 142,"Text column, position-based naming",object,60.7%,25,MB1; 12; 25; 22; 10
+Standard Violations,Unnamed: 143,text_column_ 143,"Text column, position-based naming",object,88.8%,7,MB2; 2; 3; 5; MI4b
+Standard Violations,Unnamed: 144,text_column_ 144,"Text column, position-based naming",object,88.8%,9,MB3; 10; 3; 13; 2
+Standard Violations,Unnamed: 145,text_column_ 145,"Text column, position-based naming",object,79.4%,16,MB5; 7; 19; 20; 11
+Standard Violations,Unnamed: 146,text_column_ 146,"Text column, position-based naming",object,84.6%,11,MI4; 2; 9; 11; 8
+Standard Violations,Unnamed: 147,text_column_ 147,"Text column, position-based naming",object,85.0%,11,MI4b; 1; 3; 4; MR3
+Standard Violations,Unnamed: 148,text_column_ 148,"Text column, position-based naming",object,84.6%,13,MO1; 4; 1; 5; 3
+Standard Violations,Unnamed: 149,text_column_ 149,"Text column, position-based naming",object,29.9%,32,MR1; 11; 25; 26; 24
+Standard Violations,Unnamed: 150,text_column_ 150,"Text column, position-based naming",object,21.5%,27,MR2; 12; 23; 26; 14
+Standard Violations,Unnamed: 151,text_column_ 151,"Text column, position-based naming",object,29.9%,28,MR3; 12; 23; 19; 16
+Standard Violations,Unnamed: 152,text_column_ 152,"Text column, position-based naming",object,51.4%,19,MRA; 4; 3; 15; 11
+Standard Violations,Unnamed: 153,text_column_ 153,"Text column, position-based naming",object,72.9%,15,MRB; 3; 10; 4; 14
+Standard Violations,Unnamed: 154,text_column_ 154,"Text column, position-based naming",object,77.1%,12,MRC; 2; 1; 5; 4
+Standard Violations,Unnamed: 155,text_column_ 155,"Text column, position-based naming",object,86.4%,7,MRD; 1; 3; 4; 8
+Standard Violations,Unnamed: 156,text_column_ 156,"Text column, position-based naming",object,36.9%,21,PL1; 2; 7; 21; 23
+Standard Violations,Unnamed: 157,text_column_ 157,"Text column, position-based naming",object,49.1%,27,PR1; 23; 20; 22; 16
+Standard Violations,Unnamed: 158,text_column_ 158,"Text column, position-based naming",object,86.0%,10,PR2; 1; 8; 9; SB1
+Standard Violations,Unnamed: 159,text_column_ 159,"Text column, position-based naming",object,84.1%,10,PR2a; 1; 2; SB2; 11
+Standard Violations,Unnamed: 160,text_column_ 160,"Text column, position-based naming",object,67.8%,14,RBA; 9; 11; 6; 12
+Standard Violations,Unnamed: 161,text_column_ 161,"Text column, position-based naming",object,73.4%,17,RO1; 5; 9; 3; 1
+Standard Violations,Unnamed: 162,text_column_ 162,"Text column, position-based naming",object,25.7%,26,SB1; 12; 24; 26; 25
+Standard Violations,Unnamed: 163,text_column_ 163,"Text column, position-based naming",object,20.1%,27,SB2; 13; 26; 25; 20
+Standard Violations,Unnamed: 164,text_column_ 164,"Text column, position-based naming",object,70.1%,14,SB3; 12; 22; 13; 1
+Standard Violations,Unnamed: 165,text_column_ 165,"Text column, position-based naming",object,25.7%,26,SB4; 13; 23; 24; 25
+Standard Violations,Unnamed: 166,text_column_ 166,"Text column, position-based naming",object,21.0%,21,SB5; 14; 25; 26; 24
+Standard Violations,Unnamed: 167,text_column_ 167,"Text column, position-based naming",object,79.9%,16,SBA; 2; 5; 4; 13
+Standard Violations,Unnamed: 168,text_column_ 168,"Text column, position-based naming",object,83.6%,11,SC1; 4; 5; 2; 11
+Standard Violations,Unnamed: 169,text_column_ 169,"Text column, position-based naming",object,88.8%,9,SC2; 2; 7; 9; 6
+Standard Violations,Unnamed: 170,text_column_ 170,"Text column, position-based naming",object,88.3%,9,SC3; 8; 3; 11; TM1
+Standard Violations,Unnamed: 171,text_column_ 171,"Text column, position-based naming",object,53.7%,33,SHA; 10; 13; 21; 4
+Standard Violations,Unnamed: 172,text_column_ 172,"Text column, position-based naming",object,39.3%,24,SM1; 13; 22; 17; 23
+Standard Violations,Unnamed: 173,text_column_ 173,"Text column, position-based naming",object,90.7%,7,SW1; 9; 3; 12; 8
+Standard Violations,Unnamed: 174,text_column_ 174,"Text column, position-based naming",object,57.9%,21,TM1; 1; 10; 18; 9
+Standard Violations,Unnamed: 175,text_column_ 175,"Text column, position-based naming",object,22.9%,117,Grand Total; 207; 456; 571; 535
+Air Temp,Unnamed: 0,numeric_column_ 0,"Numeric column, position-based naming",float64,100.0%,0,
+Air Temp,Unnamed: 3,text_column_ 3,"Text column, position-based naming",object,98.1%,4,AC5; 6.25; 11; 1.5
+Air Temp,Unnamed: 4,text_column_ 4,"Text column, position-based naming",object,74.2%,70,BB1; 16.033333333333335; 1.6; 10.6; 11.6
+Air Temp,Unnamed: 5,text_column_ 5,"Text column, position-based naming",object,96.3%,9,BD1; 26.8; 15.25; 16; 14.5
+Air Temp,Unnamed: 6,text_column_ 6,"Text column, position-based naming",object,70.9%,79,BD2; 18.679999999999996; 17.6; 12.2; 24.6
+Air Temp,Unnamed: 7,text_column_ 7,"Text column, position-based naming",object,72.7%,71,BD3; 14.433333333333334; -1.9; 6.6; 8.6
+Air Temp,Unnamed: 8,text_column_ 8,"Text column, position-based naming",object,83.2%,44,BD4; 14.357142857142858; -4; 6; 12
+Air Temp,Unnamed: 9,text_column_ 9,"Text column, position-based naming",object,75.5%,70,BK1; 20.916666666666668; 20; 24.5; 22.5
+Air Temp,Unnamed: 10,text_column_ 10,"Text column, position-based naming",object,96.8%,6,CB1; 12.82725; 29.403; 5.802; 9.302
+Air Temp,Unnamed: 11,text_column_ 11,"Text column, position-based naming",object,74.8%,78,CB2; 17.807272727272725; 9.69; 12.69; 21.2
+Air Temp,Unnamed: 12,text_column_ 12,"Text column, position-based naming",object,88.6%,26,CB3; 13.875; 25.5; 20; 10
+Air Temp,Unnamed: 13,text_column_ 13,"Text column, position-based naming",object,64.7%,89,CB4; 14.497500000000002; 3.69; 8.69; 8.19
+Air Temp,Unnamed: 14,text_column_ 14,"Text column, position-based naming",object,82.9%,40,CB5; 21.25; 22; 23; 26
+Air Temp,Unnamed: 15,text_column_ 15,"Text column, position-based naming",object,81.9%,58,CH1; 7.1; 14.1; 0.1; 12.559999999999999
+Air Temp,Unnamed: 16,text_column_ 16,"Text column, position-based naming",object,98.1%,4,CH2; 24.903; 20.403; 29.403
+Air Temp,Unnamed: 17,chloride_value,Contains water quality parameter: chloride,object,68.8%,83,CL1; 14.518; -2.01; 10.69; 24.9
+Air Temp,Unnamed: 18,chloride_value,Contains water quality parameter: chloride,object,81.9%,54,CL2; 15.19; -0.91; 5.59; 14.7
+Air Temp,Unnamed: 19,chloride_value,Contains water quality parameter: chloride,object,73.2%,78,CL3; 14.533333333333331; 22.7; 12.7; 8.2
+Air Temp,Unnamed: 20,text_column_ 20,"Text column, position-based naming",object,68.6%,87,CR1; 12.174444444444445; -2.81; 4.19; 9.69
+Air Temp,Unnamed: 21,text_column_ 21,"Text column, position-based naming",object,69.3%,84,DB1; 15.608888888888892; 8.49; 12.49; 15.4
+Air Temp,Unnamed: 22,text_column_ 22,"Text column, position-based naming",object,80.7%,60,DBA; 10.3; 12.3; 8.3; 15.280000000000001
+Air Temp,Unnamed: 23,text_column_ 23,"Text column, position-based naming",object,98.1%,4,DE1; 15.75; 9.5; 22
+Air Temp,Unnamed: 24,text_column_ 24,"Text column, position-based naming",object,83.4%,49,DP3; 18.58; -0.1; 10.2; 17.5
+Air Temp,Unnamed: 25,text_column_ 25,"Text column, position-based naming",object,79.7%,60,HA1; 16.581818181818182; -4.7; 7.3; 17
+Air Temp,Unnamed: 26,text_column_ 26,"Text column, position-based naming",object,76.2%,58,HA2; 11.833333333333334; 14; 13; 8.5
+Air Temp,Unnamed: 27,text_column_ 27,"Text column, position-based naming",object,64.4%,95,HB3; 16.10833333333333; -3; 13; 16
+Air Temp,Unnamed: 28,text_column_ 28,"Text column, position-based naming",object,84.5%,48,HL1; 12.375555555555557; -4.51; 3; 12.69
+Air Temp,Unnamed: 29,text_column_ 29,"Text column, position-based naming",object,88.9%,32,HL2; 18.334; 26.4; 23.4; 5.202
+Air Temp,Unnamed: 30,text_column_ 30,"Text column, position-based naming",object,95.7%,8,HL3; 8.5; 10.9; 3; 10
+Air Temp,Unnamed: 31,text_column_ 31,"Text column, position-based naming",object,66.0%,86,HO1; 14.954545454545455; -3.5; 6.5; 14
+Air Temp,Unnamed: 32,text_column_ 32,"Text column, position-based naming",object,71.6%,75,HO2; 20.48; 20.5; 25.5; 24.72
+Air Temp,Unnamed: 33,text_column_ 33,"Text column, position-based naming",object,85.4%,41,HO3; 18.96; 12.9; 15.4; 17.5
+Air Temp,Unnamed: 34,text_column_ 34,"Text column, position-based naming",object,98.8%,2,JC6; 2
+Air Temp,Unnamed: 35,text_column_ 35,"Text column, position-based naming",object,96.1%,8,MB2; 15.75; 19; 12.5; 6.3
+Air Temp,Unnamed: 36,text_column_ 36,"Text column, position-based naming",object,98.1%,4,MI4; 9.75; 17; 2.5
+Air Temp,Unnamed: 37,text_column_ 37,"Text column, position-based naming",object,84.5%,45,MR1; 15.014285714285714; 7.6; 9.6; 20
+Air Temp,Unnamed: 38,text_column_ 38,"Text column, position-based naming",object,77.9%,59,MR2; 8.3; 15.175; 3.6; 15.2
+Air Temp,Unnamed: 39,text_column_ 39,"Text column, position-based naming",object,74.9%,62,MR3; 15; -1.7; 6.3; 10.8
+Air Temp,Unnamed: 40,text_column_ 40,"Text column, position-based naming",object,74.6%,67,MRA; 15.157999999999998; -0.1; 9.39; 18.5
+Air Temp,Unnamed: 41,text_column_ 41,"Text column, position-based naming",object,82.1%,57,MRB; 8.402; 10.402; 9.402; 5.402
+Air Temp,Unnamed: 42,text_column_ 42,"Text column, position-based naming",object,90.0%,25,MRC; 6.6; 17.260999999999996; 5.3; 21.4015
+Air Temp,Unnamed: 43,text_column_ 43,"Text column, position-based naming",object,96.7%,4,MRD; 14; 9; 4
+Air Temp,Unnamed: 44,text_column_ 44,"Text column, position-based naming",object,64.7%,93,PL1; 19.09; 14.3; 13.3; 24
+Air Temp,Unnamed: 45,text_column_ 45,"Text column, position-based naming",object,81.2%,55,PR1; 16.595454545454544; -2.66; 4.89; 19.02
+Air Temp,Unnamed: 46,text_column_ 46,"Text column, position-based naming",object,98.8%,2,PR2; 16
+Air Temp,Unnamed: 47,text_column_ 47,"Text column, position-based naming",object,74.1%,67,RBA; 13.983333333333334; 8; 15; 21.5
+Air Temp,Unnamed: 48,text_column_ 48,"Text column, position-based naming",object,85.4%,45,RO1; 20.5; 20.2; 25.2; 24.7
+Air Temp,Unnamed: 49,text_column_ 49,"Text column, position-based naming",object,83.3%,48,SB1; 18.23; 8.19; 15.19; 22.3
+Air Temp,Unnamed: 50,text_column_ 50,"Text column, position-based naming",object,62.7%,91,SB2; 16.740000000000002; -0.7; 9.3; 20
+Air Temp,Unnamed: 51,text_column_ 51,"Text column, position-based naming",object,73.9%,76,SB3; 14.305833333333332; -3.31; 7.69; 7.59
+Air Temp,Unnamed: 52,text_column_ 52,"Text column, position-based naming",object,63.4%,91,SB4; 15.954545454545457; 6.8; 13.8; 24
+Air Temp,Unnamed: 53,text_column_ 53,"Text column, position-based naming",object,69.3%,79,SB5; 12.823333333333332; -3.4; 3.1; 14.51
+Air Temp,Unnamed: 54,text_column_ 54,"Text column, position-based naming",object,94.7%,9,SBA; 9.5; 13.5; 5.5; 15.9
+Air Temp,Unnamed: 55,text_column_ 55,"Text column, position-based naming",object,93.8%,13,SC1; 17.125; 24.5; 25; 11.5
+Air Temp,Unnamed: 56,text_column_ 56,"Text column, position-based naming",object,98.1%,4,SC2; 12.25; 23.5; 1
+Air Temp,Unnamed: 57,text_column_ 57,"Text column, position-based naming",object,77.3%,69,SHA; 16.339999999999996; 22.5; 21.5; 23
+Air Temp,Unnamed: 58,text_column_ 58,"Text column, position-based naming",object,82.5%,54,SM1; 14.8; 22.4; 21.4; 17.4
+Air Temp,Unnamed: 59,text_column_ 59,"Text column, position-based naming",object,89.0%,31,TM1; 12.228571428571428; 5.8; 11.7; 12.2
+Water Temp,Unnamed: 0,numeric_column_ 0,"Numeric column, position-based naming",float64,100.0%,0,
+Water Temp,Unnamed: 3,text_column_ 3,"Text column, position-based naming",object,97.3%,14,AC5; 6; 9; 3; Feb
+Water Temp,Unnamed: 4,text_column_ 4,"Text column, position-based naming",object,79.2%,81,BB1; 15.133333333333333; 3.6; 8.1; 18
+Water Temp,Unnamed: 5,text_column_ 5,"Text column, position-based naming",object,95.7%,19,BD1; 22.5; 12; 4.75; 1.5
+Water Temp,Unnamed: 6,text_column_ 6,"Text column, position-based naming",object,77.5%,83,BD2; 15.089999999999995; 11.2; 15.6; 17.6
+Water Temp,Unnamed: 7,text_column_ 7,"Text column, position-based naming",object,78.2%,81,BD3; 13.388888888888888; 2.6; 4.1; 10.1
+Water Temp,Unnamed: 8,text_column_ 8,"Text column, position-based naming",object,85.8%,49,BD4; 9.75; 1.5; 4; 10
+Water Temp,Unnamed: 9,text_column_ 9,"Text column, position-based naming",object,80.6%,78,BK1; 15.083333333333334; 17; 21; 19.5
+Water Temp,Unnamed: 10,text_column_ 10,"Text column, position-based naming",object,96.2%,16,CB1; 10.95225; 23.403; 9.302; 7.302
+Water Temp,Unnamed: 11,text_column_ 11,"Text column, position-based naming",object,79.7%,86,CB2; 15.17090909090909; 4.19; 11.69; 17.7
+Water Temp,Unnamed: 12,text_column_ 12,"Text column, position-based naming",object,89.9%,36,CB3; 12.5; 14; 13.5625; 3.5
+Water Temp,Unnamed: 13,text_column_ 13,"Text column, position-based naming",object,73.1%,99,CB4; 11.680833333333332; 3.69; 7.69; 10.69
+Water Temp,Unnamed: 14,text_column_ 14,"Text column, position-based naming",object,87.9%,37,CB5; 19; 15.61111111111111; 15.3; 11.88888888888889
+Water Temp,Unnamed: 15,text_column_ 15,"Text column, position-based naming",object,86.5%,55,CH1; 8.1; 9.549999999999999; 11.834777777777775; 19.375
+Water Temp,Unnamed: 16,text_column_ 16,"Text column, position-based naming",object,98.4%,4,CH2; 17.8525; 13.802; 21.903
+Water Temp,Unnamed: 17,chloride_value,Contains water quality parameter: chloride,object,76.8%,84,CL1; 15.268; 1.39; 12.39; 20.7
+Water Temp,Unnamed: 18,chloride_value,Contains water quality parameter: chloride,object,85.1%,54,CL2; 14.773333333333335; 0.09; 4.59; 12.2
+Water Temp,Unnamed: 19,chloride_value,Contains water quality parameter: chloride,object,80.5%,70,CL3; 12.033333333333333; 19.7; 12.7; 3.7
+Water Temp,Unnamed: 20,text_column_ 20,"Text column, position-based naming",object,78.5%,79,CR1; 10.254285714285714; -1.31; 3.19; 8
+Water Temp,Unnamed: 21,text_column_ 21,"Text column, position-based naming",object,77.3%,85,DB1; 13.720000000000002; 7.49; 12.49; 17.7
+Water Temp,Unnamed: 22,text_column_ 22,"Text column, position-based naming",object,85.5%,57,DBA; 4.05; 4.3; 3.8; 9.139999999999999
+Water Temp,Unnamed: 23,text_column_ 23,"Text column, position-based naming",object,98.4%,4,DE1; 13.25; 5; 21.5
+Water Temp,Unnamed: 24,text_column_ 24,"Text column, position-based naming",object,86.5%,49,DP3; 13.66; 3.3; 6.7; 10.7
+Water Temp,Unnamed: 25,text_column_ 25,"Text column, position-based naming",object,83.5%,61,HA1; 13.409090909090912; 0.3; 5.3; 10.8
+Water Temp,Unnamed: 26,text_column_ 26,"Text column, position-based naming",object,82.8%,50,HA2; 11.666666666666666; 13.166666666666666; 10.8; 12.641666666666666
+Water Temp,Unnamed: 27,text_column_ 27,"Text column, position-based naming",object,73.5%,79,HB3; 11.358333333333334; 0; 5.7; 8.5
+Water Temp,Unnamed: 28,text_column_ 28,"Text column, position-based naming",object,87.4%,45,HL1; 12.921111111111113; 0.49; 4; 11
+Water Temp,Unnamed: 29,text_column_ 29,"Text column, position-based naming",object,91.4%,33,HL2; 18.834; 13.511555555555555; 13.2; 13.25
+Water Temp,Unnamed: 30,text_column_ 30,"Text column, position-based naming",object,96.5%,8,HL3; 6; 7.6; 3; 10
+Water Temp,Unnamed: 31,text_column_ 31,"Text column, position-based naming",object,74.9%,86,HO1; 14.136363636363637; 1.5; 5; 12
+Water Temp,Unnamed: 32,text_column_ 32,"Text column, position-based naming",object,79.0%,71,HO2; 17.91111111111111; 20.5; 21; 23.5
+Water Temp,Unnamed: 33,text_column_ 33,"Text column, position-based naming",object,87.4%,40,HO3; 16.28181818181818; 5.9; 10.9; 12.9
+Water Temp,Unnamed: 34,text_column_ 34,"Text column, position-based naming",object,98.9%,2,JC6; 0
+Water Temp,Unnamed: 35,text_column_ 35,"Text column, position-based naming",object,96.7%,8,MB2; 5.75; 5.366666666666666; 1.4; 3.2
+Water Temp,Unnamed: 36,text_column_ 36,"Text column, position-based naming",object,98.4%,4,MI4; 5.25; 8; 2.5
+Water Temp,Unnamed: 37,text_column_ 37,"Text column, position-based naming",object,87.6%,45,MR1; 15.442857142857141; 8.1; 11.1; 23.5
+Water Temp,Unnamed: 38,text_column_ 38,"Text column, position-based naming",object,83.9%,61,MR2; 7.2; 15.549999999999999; 12.475; 15.026000000000002
+Water Temp,Unnamed: 39,text_column_ 39,"Text column, position-based naming",object,81.0%,63,MR3; 16.020000000000003; 2.8; 6.8; 13.3
+Water Temp,Unnamed: 40,text_column_ 40,"Text column, position-based naming",object,81.8%,65,MRA; 10.238; 0.9; 4.39; 10.9
+Water Temp,Unnamed: 41,text_column_ 41,"Text column, position-based naming",object,86.7%,55,MRB; 8.335333333333333; 12.4402; 4.833333333333333; 15
+Water Temp,Unnamed: 42,text_column_ 42,"Text column, position-based naming",object,92.0%,25,MRC; 4.6; 13.841; 10.175; 3
+Water Temp,Unnamed: 43,text_column_ 43,"Text column, position-based naming",object,97.2%,6,MRD; 11.5; 4.666666666666667; 5; 8
+Water Temp,Unnamed: 44,text_column_ 44,"Text column, position-based naming",object,74.1%,88,PL1; 17.62; 5.3; 11.8; 20
+Water Temp,Unnamed: 45,text_column_ 45,"Text column, position-based naming",object,85.0%,52,PR1; 13.674545454545454; -0.66; 3.89; 8.89
+Water Temp,Unnamed: 46,text_column_ 46,"Text column, position-based naming",object,98.9%,2,PR2; 16
+Water Temp,Unnamed: 47,text_column_ 47,"Text column, position-based naming",object,81.0%,76,RBA; 12.198333333333332; 6.49; 11.8; 19.5
+Water Temp,Unnamed: 48,text_column_ 48,"Text column, position-based naming",object,88.3%,42,RO1; 14.36; 19.2; 21.2; 17.2
+Water Temp,Unnamed: 49,text_column_ 49,"Text column, position-based naming",object,86.6%,50,SB1; 13.616666666666665; 4.6; 9.6; 20.3
+Water Temp,Unnamed: 50,text_column_ 50,"Text column, position-based naming",object,72.9%,87,SB2; 14.770000000000001; 1.3; 10.3; 16.5
+Water Temp,Unnamed: 51,text_column_ 51,"Text column, position-based naming",object,80.0%,74,SB3; 12.814166666666665; 0.69; 6.19; 9.19
+Water Temp,Unnamed: 52,text_column_ 52,"Text column, position-based naming",object,73.2%,92,SB4; 13.909090909090912; 3.8; 10.8; 20.5
+Water Temp,Unnamed: 53,text_column_ 53,"Text column, position-based naming",object,77.3%,80,SB5; 11.112222222222222; 0.1; 3.1; 9.51
+Water Temp,Unnamed: 54,text_column_ 54,"Text column, position-based naming",object,95.6%,10,SBA; 5; 12.1; 2; 2.5
+Water Temp,Unnamed: 55,text_column_ 55,"Text column, position-based naming",object,94.8%,13,SC1; 13.75; 11.3; 3; 3.5
+Water Temp,Unnamed: 56,text_column_ 56,"Text column, position-based naming",object,98.4%,4,SC2; 3.5; 5; 2
+Water Temp,Unnamed: 57,text_column_ 57,"Text column, position-based naming",object,82.7%,62,SHA; 14.839999999999998; 24; 18.5; 21
+Water Temp,Unnamed: 58,text_column_ 58,"Text column, position-based naming",object,86.2%,58,SM1; 10.499999999999998; 18.4; 17.9; 9.4
+Water Temp,Unnamed: 59,text_column_ 59,"Text column, position-based naming",object,90.9%,30,TM1; 10.228571428571428; 3.8; 13.7; 13.2
+Nitrate,Unnamed: 0,numeric_column_ 0,"Numeric column, position-based naming",float64,100.0%,0,
+Nitrate,Unnamed: 3,text_column_ 3,"Text column, position-based naming",object,98.1%,4,AC5; 0.6000000000000001; 0.4; 0.8
+Nitrate,Unnamed: 4,text_column_ 4,"Text column, position-based naming",object,72.6%,26,BB1; 0.4666666666666667; 0.8; 0.5; 1
+Nitrate,Unnamed: 5,text_column_ 5,"Text column, position-based naming",object,94.8%,11,BD1; 0.4833333333333334; 0.7; 0.4; 0.35
+Nitrate,Unnamed: 6,text_column_ 6,"Text column, position-based naming",object,70.6%,29,BD2; 0.5583333333333332; 0.3; 0.8; 0.6
+Nitrate,Unnamed: 7,text_column_ 7,"Text column, position-based naming",object,72.0%,27,BD3; 1.2; 0.8; 1.6; 1
+Nitrate,Unnamed: 8,text_column_ 8,"Text column, position-based naming",object,82.5%,23,BD4; 0.43749999999999994; 0.6; 0.3; 0.8
+Nitrate,Unnamed: 9,text_column_ 9,"Text column, position-based naming",object,75.2%,22,BK1; 0.3; 0.27142857142857146; 0.2; 0.4625
+Nitrate,Unnamed: 10,text_column_ 10,"Text column, position-based naming",object,96.8%,5,CB1; 2.55; 4; 1; 1.2
+Nitrate,Unnamed: 11,text_column_ 11,"Text column, position-based naming",object,73.8%,22,CB2; 0.32727272727272727; 0.5; 0.3; 0.4
+Nitrate,Unnamed: 12,text_column_ 12,"Text column, position-based naming",object,89.3%,11,CB3; 0.30000000000000004; 0.2; 0.4; 0.6
+Nitrate,Unnamed: 13,text_column_ 13,"Text column, position-based naming",object,64.4%,27,CB4; 0.49166666666666675; 0.6; 0.4; 1
+Nitrate,Unnamed: 14,text_column_ 14,"Text column, position-based naming",object,84.2%,15,CB5; 0.20000000000000004; 0.2; 0.21111111111111108; 0.3
+Nitrate,Unnamed: 15,text_column_ 15,"Text column, position-based naming",object,82.2%,18,CH1; 0.25; 0.2; 0.3; 0.3111111111111111
+Nitrate,Unnamed: 16,text_column_ 16,"Text column, position-based naming",object,98.1%,2,CH2; 0.2
+Nitrate,Unnamed: 17,chloride_value,Contains water quality parameter: chloride,object,69.4%,31,CL1; 0.9400000000000001; 1; 1.2; 0.2
+Nitrate,Unnamed: 18,chloride_value,Contains water quality parameter: chloride,object,81.6%,21,CL2; 0.7250000000000001; 1; 1.6; 0.8
+Nitrate,Unnamed: 19,chloride_value,Contains water quality parameter: chloride,object,73.2%,25,CL3; 0.3333333333333333; 0.4; 0.2; 0.34545454545454546
+Nitrate,Unnamed: 20,text_column_ 20,"Text column, position-based naming",object,68.3%,34,CR1; 0.4666666666666667; 0.2; 0.3; 0.6
+Nitrate,Unnamed: 21,text_column_ 21,"Text column, position-based naming",object,68.3%,26,DB1; 0.7272727272727272; 0.2; 0.8; 1.2
+Nitrate,Unnamed: 22,text_column_ 22,"Text column, position-based naming",object,80.7%,4,DBA; 0.2; 0.19999999999999998; 0.20000000000000004
+Nitrate,Unnamed: 23,text_column_ 23,"Text column, position-based naming",object,98.1%,4,DE1; 0.7; 1; 0.4
+Nitrate,Unnamed: 24,text_column_ 24,"Text column, position-based naming",object,83.1%,18,DP3; 0.9; 0.8; 0.3; 1
+Nitrate,Unnamed: 25,text_column_ 25,"Text column, position-based naming",object,78.1%,24,HA1; 0.6909090909090909; 1.2; 0.6; 0.8
+Nitrate,Unnamed: 26,text_column_ 26,"Text column, position-based naming",object,76.2%,27,HA2; 1.2; 1; 1.6; 1.2333333333333332
+Nitrate,Unnamed: 27,text_column_ 27,"Text column, position-based naming",object,63.4%,43,HB3; 1.7; 0.2; 0.3; 2.4
+Nitrate,Unnamed: 28,text_column_ 28,"Text column, position-based naming",object,85.9%,15,HL1; 0.3125; 0.4; 0.3; 0.2
+Nitrate,Unnamed: 29,text_column_ 29,"Text column, position-based naming",object,88.3%,15,HL2; 0.25; 0.2; 0.4; 0.26666666666666666
+Nitrate,Unnamed: 30,text_column_ 30,"Text column, position-based naming",object,95.7%,5,HL3; 0.3; 0.34; 0.4; 0.35
+Nitrate,Unnamed: 31,text_column_ 31,"Text column, position-based naming",object,65.7%,30,HO1; 0.65; 1; 0.5; 0.3
+Nitrate,Unnamed: 32,text_column_ 32,"Text column, position-based naming",object,71.6%,10,HO2; 0.19999999999999998; 0.2; 0.2222222222222222; 0.4
+Nitrate,Unnamed: 33,text_column_ 33,"Text column, position-based naming",object,84.4%,11,HO3; 0.19999999999999998; 0.2; 0.4; 0.5
+Nitrate,Unnamed: 34,text_column_ 34,"Text column, position-based naming",object,98.1%,4,JC6; 0.6000000000000001; 0.4; 0.8
+Nitrate,Unnamed: 35,text_column_ 35,"Text column, position-based naming",object,96.1%,3,MB2; 0.2; 0.20000000000000004
+Nitrate,Unnamed: 36,text_column_ 36,"Text column, position-based naming",object,98.1%,4,MI4; 0.45; 0.4; 0.5
+Nitrate,Unnamed: 37,text_column_ 37,"Text column, position-based naming",object,85.2%,21,MR1; 1.1666666666666667; 0.6; 1.6; 1.2
+Nitrate,Unnamed: 38,text_column_ 38,"Text column, position-based naming",object,76.9%,27,MR2; 1.4; 1.6; 1.2; 0.9666666666666667
+Nitrate,Unnamed: 39,text_column_ 39,"Text column, position-based naming",object,74.6%,29,MR3; 1.3399999999999999; 1; 0.8; 1.6
+Nitrate,Unnamed: 40,text_column_ 40,"Text column, position-based naming",object,74.9%,13,MRA; 0.22000000000000003; 0.2; 0.3; 0.20000000000000004
+Nitrate,Unnamed: 41,text_column_ 41,"Text column, position-based naming",object,81.8%,19,MRB; 0.5; 0.6; 0.3; 0.7
+Nitrate,Unnamed: 42,text_column_ 42,"Text column, position-based naming",object,90.0%,8,MRC; 0.2; 0.44000000000000006; 0.5; 0.8
+Nitrate,Unnamed: 43,text_column_ 43,"Text column, position-based naming",object,96.7%,5,MRD; 0.2; 0.3666666666666667; 0.4; 0.3
+Nitrate,Unnamed: 44,text_column_ 44,"Text column, position-based naming",object,64.4%,28,PL1; 0.3272727272727273; 0.8; 0.5; 0.3
+Nitrate,Unnamed: 45,text_column_ 45,"Text column, position-based naming",object,80.6%,21,PR1; 0.28333333333333327; 0.2; 0.4; 0.3
+Nitrate,Unnamed: 46,text_column_ 46,"Text column, position-based naming",object,98.8%,2,PR2; 1
+Nitrate,Unnamed: 47,text_column_ 47,"Text column, position-based naming",object,74.1%,24,RBA; 0.38333333333333336; 0.4; 0.6; 0.2
+Nitrate,Unnamed: 48,text_column_ 48,"Text column, position-based naming",object,85.1%,24,RO1; 0.82; 0.4; 2; 0.2
+Nitrate,Unnamed: 49,text_column_ 49,"Text column, position-based naming",object,83.3%,19,SB1; 0.54; 0.6; 0.5; 1
+Nitrate,Unnamed: 50,text_column_ 50,"Text column, position-based naming",object,62.4%,32,SB2; 1.2909090909090908; 1.6; 1.2; 0.8
+Nitrate,Unnamed: 51,text_column_ 51,"Text column, position-based naming",object,74.2%,25,SB3; 0.9249999999999999; 1.2; 0.4; 0.6
+Nitrate,Unnamed: 52,text_column_ 52,"Text column, position-based naming",object,63.7%,31,SB4; 0.9999999999999999; 1; 0.8; 1.2
+Nitrate,Unnamed: 53,text_column_ 53,"Text column, position-based naming",object,68.6%,25,SB5; 0.3; 0.2; 0.8; 0.5
+Nitrate,Unnamed: 54,text_column_ 54,"Text column, position-based naming",object,94.1%,7,SBA; 0.2; 0.46666666666666656; 0.8; 0.6
+Nitrate,Unnamed: 55,text_column_ 55,"Text column, position-based naming",object,93.8%,7,SC1; 0.5499999999999999; 1; 0.4; 0.2
+Nitrate,Unnamed: 56,text_column_ 56,"Text column, position-based naming",object,98.1%,4,SC2; 0.35; 0.4; 0.3
+Nitrate,Unnamed: 57,text_column_ 57,"Text column, position-based naming",object,77.0%,21,SHA; 0.23333333333333336; 0.2; 0.3; 0.19999999999999998
+Nitrate,Unnamed: 58,text_column_ 58,"Text column, position-based naming",object,82.1%,18,SM1; 0.26000000000000006; 0.2; 0.3; 0.4
+Nitrate,Unnamed: 59,text_column_ 59,"Text column, position-based naming",object,88.7%,4,TM1; 0.19999999999999998; 0.2; 0.20000000000000004
+Phosphate,Unnamed: 0,numeric_column_ 0,"Numeric column, position-based naming",float64,100.0%,0,
+Phosphate,Unnamed: 3,text_column_ 3,"Text column, position-based naming",object,98.1%,2,AC5; 0.2
+Phosphate,Unnamed: 4,text_column_ 4,"Text column, position-based naming",object,72.9%,21,BB1; 0.33333333333333326; 0.3; 0.4; 0.3111111111111111
+Phosphate,Unnamed: 5,text_column_ 5,"Text column, position-based naming",object,94.8%,6,BD1; 0.3; 0.2; 0.35; 0.25
+Phosphate,Unnamed: 6,text_column_ 6,"Text column, position-based naming",object,70.3%,24,BD2; 0.21666666666666667; 0.2; 0.3; 0.3777777777777778
+Phosphate,Unnamed: 7,text_column_ 7,"Text column, position-based naming",object,72.0%,27,BD3; 0.41000000000000003; 0.2; 0.3; 0.4
+Phosphate,Unnamed: 8,text_column_ 8,"Text column, position-based naming",object,82.5%,13,BD4; 0.375; 0.2; 0.8; 0.4
+Phosphate,Unnamed: 9,text_column_ 9,"Text column, position-based naming",object,75.9%,21,BK1; 0.4666666666666666; 0.6; 0.4; 0.32499999999999996
+Phosphate,Unnamed: 10,text_column_ 10,"Text column, position-based naming",object,96.8%,2,CB1; 0.2
+Phosphate,Unnamed: 11,text_column_ 11,"Text column, position-based naming",object,73.8%,6,CB2; 0.19999999999999998; 0.2; 0.2111111111111111; 0.3
+Phosphate,Unnamed: 12,text_column_ 12,"Text column, position-based naming",object,88.6%,8,CB3; 0.2; 0.2714285714285714; 0.3; 0.4
+Phosphate,Unnamed: 13,text_column_ 13,"Text column, position-based naming",object,64.4%,22,CB4; 0.31250000000000006; 0.2; 0.4; 0.35
+Phosphate,Unnamed: 14,text_column_ 14,"Text column, position-based naming",object,84.2%,19,CB5; 0.20000000000000004; 0.2; 0.43333333333333335; 0.4
+Phosphate,Unnamed: 15,text_column_ 15,"Text column, position-based naming",object,81.9%,4,CH1; 0.2; 0.19999999999999998; 0.20000000000000004
+Phosphate,Unnamed: 16,text_column_ 16,"Text column, position-based naming",object,98.1%,2,CH2; 0.2
+Phosphate,Unnamed: 17,chloride_value,Contains water quality parameter: chloride,object,69.7%,21,CL1; 0.22000000000000003; 0.2; 0.4; 0.26
+Phosphate,Unnamed: 18,chloride_value,Contains water quality parameter: chloride,object,81.6%,14,CL2; 0.25; 0.4; 0.2; 0.6
+Phosphate,Unnamed: 19,chloride_value,Contains water quality parameter: chloride,object,72.3%,18,CL3; 0.3; 0.4; 0.2; 0.2727272727272728
+Phosphate,Unnamed: 20,text_column_ 20,"Text column, position-based naming",object,68.6%,9,CR1; 0.19999999999999998; 0.2; 0.22000000000000003; 0.4
+Phosphate,Unnamed: 21,text_column_ 21,"Text column, position-based naming",object,68.0%,26,DB1; 0.38181818181818183; 0.8; 0.2; 0.5
+Phosphate,Unnamed: 22,text_column_ 22,"Text column, position-based naming",object,80.7%,4,DBA; 0.2; 0.19999999999999998; 0.20000000000000004
+Phosphate,Unnamed: 23,text_column_ 23,"Text column, position-based naming",object,98.1%,4,DE1; 0.45; 0.5; 0.4
+Phosphate,Unnamed: 24,text_column_ 24,"Text column, position-based naming",object,83.1%,10,DP3; 0.20909090909090908; 0.2; 0.3; 0.19999999999999998
+Phosphate,Unnamed: 25,text_column_ 25,"Text column, position-based naming",object,78.4%,21,HA1; 0.33636363636363636; 0.2; 0.4; 0.5
+Phosphate,Unnamed: 26,text_column_ 26,"Text column, position-based naming",object,76.2%,24,HA2; 0.7999999999999999; 0.8; 0.6; 1
+Phosphate,Unnamed: 27,text_column_ 27,"Text column, position-based naming",object,64.7%,10,HB3; 0.19999999999999998; 0.2; 0.2090909090909091; 0.3
+Phosphate,Unnamed: 28,text_column_ 28,"Text column, position-based naming",object,84.5%,4,HL1; 0.19999999999999998; 0.2; 0.20000000000000004
+Phosphate,Unnamed: 29,text_column_ 29,"Text column, position-based naming",object,88.6%,4,HL2; 0.2; 0.19999999999999998; 0.20000000000000004
+Phosphate,Unnamed: 30,text_column_ 30,"Text column, position-based naming",object,95.7%,2,HL3; 0.2
+Phosphate,Unnamed: 31,text_column_ 31,"Text column, position-based naming",object,66.0%,23,HO1; 0.19999999999999998; 0.2; 0.2090909090909091; 0.3
+Phosphate,Unnamed: 32,text_column_ 32,"Text column, position-based naming",object,71.6%,24,HO2; 0.2666666666666667; 0.2; 0.6; 0.4
+Phosphate,Unnamed: 33,text_column_ 33,"Text column, position-based naming",object,84.4%,10,HO3; 0.19999999999999998; 0.2; 0.4; 0.6
+Phosphate,Unnamed: 34,text_column_ 34,"Text column, position-based naming",object,98.1%,2,JC6; 0.2
+Phosphate,Unnamed: 35,text_column_ 35,"Text column, position-based naming",object,96.1%,3,MB2; 0.2; 0.20000000000000004
+Phosphate,Unnamed: 36,text_column_ 36,"Text column, position-based naming",object,98.1%,2,MI4; 0.2
+Phosphate,Unnamed: 37,text_column_ 37,"Text column, position-based naming",object,84.5%,12,MR1; 0.21428571428571425; 0.2; 0.3; 0.23636363636363636
+Phosphate,Unnamed: 38,text_column_ 38,"Text column, position-based naming",object,77.5%,17,MR2; 0.25; 0.3; 0.2; 0.27999999999999997
+Phosphate,Unnamed: 39,text_column_ 39,"Text column, position-based naming",object,75.2%,20,MR3; 0.4666666666666667; 0.2; 0.4; 0.6
+Phosphate,Unnamed: 40,text_column_ 40,"Text column, position-based naming",object,74.6%,16,MRA; 0.25999999999999995; 0.2; 0.3; 0.4
+Phosphate,Unnamed: 41,text_column_ 41,"Text column, position-based naming",object,81.8%,8,MRB; 0.20000000000000004; 0.2; 0.22000000000000003; 0.3
+Phosphate,Unnamed: 42,text_column_ 42,"Text column, position-based naming",object,91.0%,8,MRC; 0.3; 0.32499999999999996; 0.4; 0.20000000000000004
+Phosphate,Unnamed: 43,text_column_ 43,"Text column, position-based naming",object,96.7%,3,MRD; 0.2; 0.20000000000000004
+Phosphate,Unnamed: 44,text_column_ 44,"Text column, position-based naming",object,64.4%,3,PL1; 0.19999999999999998; 0.2
+Phosphate,Unnamed: 45,text_column_ 45,"Text column, position-based naming",object,80.3%,18,PR1; 0.2750000000000001; 0.3; 0.4; 0.2
+Phosphate,Unnamed: 46,text_column_ 46,"Text column, position-based naming",object,98.8%,2,PR2; 0.3
+Phosphate,Unnamed: 47,text_column_ 47,"Text column, position-based naming",object,73.8%,8,RBA; 0.3333333333333333; 0.4; 0.2; 0.19999999999999998
+Phosphate,Unnamed: 48,text_column_ 48,"Text column, position-based naming",object,85.1%,17,RO1; 0.42000000000000004; 0.2; 0.5; 0.4
+Phosphate,Unnamed: 49,text_column_ 49,"Text column, position-based naming",object,83.3%,15,SB1; 0.26666666666666666; 0.2; 0.3; 0.5
+Phosphate,Unnamed: 50,text_column_ 50,"Text column, position-based naming",object,62.4%,26,SB2; 0.4454545454545455; 0.2; 0.5; 0.8
+Phosphate,Unnamed: 51,text_column_ 51,"Text column, position-based naming",object,74.2%,19,SB3; 0.2333333333333333; 0.2; 0.3; 0.2916666666666667
+Phosphate,Unnamed: 52,text_column_ 52,"Text column, position-based naming",object,63.0%,29,SB4; 0.39166666666666666; 0.2; 0.8; 1
+Phosphate,Unnamed: 53,text_column_ 53,"Text column, position-based naming",object,68.6%,5,SB5; 0.19999999999999998; 0.2; 0.275; 0.8
+Phosphate,Unnamed: 54,text_column_ 54,"Text column, position-based naming",object,94.1%,5,SBA; 0.30000000000000004; 0.2; 0.4; 0.19999999999999998
+Phosphate,Unnamed: 55,text_column_ 55,"Text column, position-based naming",object,93.8%,4,SC1; 0.2; 0.24; 0.4
+Phosphate,Unnamed: 56,text_column_ 56,"Text column, position-based naming",object,98.1%,2,SC2; 0.2
+Phosphate,Unnamed: 57,text_column_ 57,"Text column, position-based naming",object,77.0%,10,SHA; 0.21666666666666667; 0.2; 0.3; 0.19999999999999998
+Phosphate,Unnamed: 58,text_column_ 58,"Text column, position-based naming",object,82.8%,13,SM1; 0.21999999999999997; 0.2; 0.3; 0.75
+Phosphate,Unnamed: 59,text_column_ 59,"Text column, position-based naming",object,88.7%,6,TM1; 0.24285714285714283; 0.5; 0.2; 0.23333333333333328
+pH,Unnamed: 0,numeric_column_ 0,"Numeric column, position-based naming",float64,100.0%,0,
+pH,Unnamed: 3,text_column_ 3,"Text column, position-based naming",object,98.1%,4,AC5; 6.35; 6.2; 6.5
+pH,Unnamed: 4,text_column_ 4,"Text column, position-based naming",object,73.6%,5,BB1; 6.5; 6.333333333333333; 5; 6.2
+pH,Unnamed: 5,text_column_ 5,"Text column, position-based naming",object,94.8%,8,BD1; 6.716666666666666; 6.75; 6.7; 6.5
+pH,Unnamed: 6,text_column_ 6,"Text column, position-based naming",object,70.3%,30,BD2; 7.883333333333333; 7; 8.5; 7.5
+pH,Unnamed: 7,text_column_ 7,"Text column, position-based naming",object,71.4%,30,BD3; 7.489999999999999; 7; 7.5; 7.2
+pH,Unnamed: 8,text_column_ 8,"Text column, position-based naming",object,82.5%,25,BD4; 7.125; 7; 7.5; 6.75
+pH,Unnamed: 9,text_column_ 9,"Text column, position-based naming",object,74.9%,26,BK1; 6.6; 7; 6.7; 7.3
+pH,Unnamed: 10,text_column_ 10,"Text column, position-based naming",object,96.8%,5,CB1; 6.875; 7.5; 6; 7
+pH,Unnamed: 11,text_column_ 11,"Text column, position-based naming",object,74.1%,26,CB2; 6.318181818181817; 6; 6.25; 6.75
+pH,Unnamed: 12,text_column_ 12,"Text column, position-based naming",object,88.6%,11,CB3; 7.625; 7; 10; 6.5
+pH,Unnamed: 13,text_column_ 13,"Text column, position-based naming",object,64.4%,31,CB4; 5.770833333333333; 6; 5; 5.5
+pH,Unnamed: 14,text_column_ 14,"Text column, position-based naming",object,83.9%,11,CB5; 6; 5.5; 6.5; 6.4
+pH,Unnamed: 15,text_column_ 15,"Text column, position-based naming",object,82.6%,16,CH1; 6; 6.388888888888889; 6.5; 7
+pH,Unnamed: 16,text_column_ 16,"Text column, position-based naming",object,98.1%,4,CH2; 6.75; 6.5; 7
+pH,Unnamed: 17,chloride_value,Contains water quality parameter: chloride,object,68.8%,18,CL1; 7.15; 7; 7.5; 8.5
+pH,Unnamed: 18,chloride_value,Contains water quality parameter: chloride,object,81.9%,10,CL2; 6.545454545454546; 6.5; 7; 6
+pH,Unnamed: 19,chloride_value,Contains water quality parameter: chloride,object,72.6%,27,CL3; 7; 6.927272727272728; 6.5; 6.7
+pH,Unnamed: 20,text_column_ 20,"Text column, position-based naming",object,69.0%,31,CR1; 7.438888888888889; 7; 7.5; 7.2
+pH,Unnamed: 21,text_column_ 21,"Text column, position-based naming",object,68.0%,17,DB1; 6.5; 6.5625; 6; 7
+pH,Unnamed: 22,text_column_ 22,"Text column, position-based naming",object,80.7%,18,DBA; 6.3; 6.22; 6.2; 6
+pH,Unnamed: 23,text_column_ 23,"Text column, position-based naming",object,98.1%,4,DE1; 7.1; 7.5; 6.7
+pH,Unnamed: 24,text_column_ 24,"Text column, position-based naming",object,83.1%,6,DP3; 6.5; 5.25; 4.5; 6
+pH,Unnamed: 25,text_column_ 25,"Text column, position-based naming",object,78.4%,21,HA1; 7.318181818181818; 6; 7.5; 7
+pH,Unnamed: 26,text_column_ 26,"Text column, position-based naming",object,76.2%,14,HA2; 7.666666666666667; 7.5; 8; 7.541666666666667
+pH,Unnamed: 27,text_column_ 27,"Text column, position-based naming",object,64.0%,27,HB3; 6.608333333333334; 6.7; 6.5; 6.75
+pH,Unnamed: 28,text_column_ 28,"Text column, position-based naming",object,85.6%,24,HL1; 7.7875; 7; 6.8; 8
+pH,Unnamed: 29,text_column_ 29,"Text column, position-based naming",object,89.6%,23,HL2; 8.366666666666667; 7.7; 9.7; 7.875
+pH,Unnamed: 30,text_column_ 30,"Text column, position-based naming",object,95.7%,6,HL3; 6.8; 7.3; 7.5; 7
+pH,Unnamed: 31,text_column_ 31,"Text column, position-based naming",object,65.7%,19,HO1; 7.5; 7; 8; 7.363636363636363
+pH,Unnamed: 32,text_column_ 32,"Text column, position-based naming",object,71.6%,24,HO2; 7.611111111111111; 8; 7.5; 8.5
+pH,Unnamed: 33,text_column_ 33,"Text column, position-based naming",object,84.1%,12,HO3; 7.15; 7; 7.5; 8
+pH,Unnamed: 34,text_column_ 34,"Text column, position-based naming",object,98.1%,4,JC6; 7.75; 8; 7.5
+pH,Unnamed: 35,text_column_ 35,"Text column, position-based naming",object,96.1%,5,MB2; 6.85; 6.7; 7; 7.2
+pH,Unnamed: 36,text_column_ 36,"Text column, position-based naming",object,98.1%,4,MI4; 6.25; 6; 6.5
+pH,Unnamed: 37,text_column_ 37,"Text column, position-based naming",object,84.5%,11,MR1; 6.714285714285714; 6; 7; 6.5
+pH,Unnamed: 38,text_column_ 38,"Text column, position-based naming",object,77.5%,14,MR2; 6.5; 6.333333333333333; 6; 5.925
+pH,Unnamed: 39,text_column_ 39,"Text column, position-based naming",object,74.2%,25,MR3; 6.890000000000001; 7; 6.7; 6.5
+pH,Unnamed: 40,text_column_ 40,"Text column, position-based naming",object,74.6%,23,MRA; 6.3; 6.5; 6; 6.1
+pH,Unnamed: 41,text_column_ 41,"Text column, position-based naming",object,81.8%,13,MRB; 6.633333333333333; 6.7; 6.5; 6.5200000000000005
+pH,Unnamed: 42,text_column_ 42,"Text column, position-based naming",object,91.0%,6,MRC; 6.5; 6.375; 6; 5.5
+pH,Unnamed: 43,text_column_ 43,"Text column, position-based naming",object,96.7%,5,MRD; 6.5; 4.666666666666667; 5; 4.5
+pH,Unnamed: 44,text_column_ 44,"Text column, position-based naming",object,64.4%,30,PL1; 6.954545454545454; 7; 6.5; 6.8999999999999995
+pH,Unnamed: 45,text_column_ 45,"Text column, position-based naming",object,80.3%,9,PR1; 7; 6.5; 8; 6.375
+pH,Unnamed: 46,text_column_ 46,"Text column, position-based naming",object,98.8%,2,PR2; 6.5
+pH,Unnamed: 47,text_column_ 47,"Text column, position-based naming",object,74.1%,20,RBA; 6.416666666666667; 6.5; 6; 6.554545454545456
+pH,Unnamed: 48,text_column_ 48,"Text column, position-based naming",object,85.1%,17,RO1; 7.1; 7; 7.5; 7.055555555555555
+pH,Unnamed: 49,text_column_ 49,"Text column, position-based naming",object,83.7%,19,SB1; 7.359999999999999; 7.5; 7.2; 7.3
+pH,Unnamed: 50,text_column_ 50,"Text column, position-based naming",object,62.4%,21,SB2; 7.545454545454546; 7; 7.5; 8.5
+pH,Unnamed: 51,text_column_ 51,"Text column, position-based naming",object,73.9%,7,SB3; 7.083333333333333; 7; 8; 7.090909090909091
+pH,Unnamed: 52,text_column_ 52,"Text column, position-based naming",object,64.4%,19,SB4; 7.333333333333333; 7; 8.5; 7.5
+pH,Unnamed: 53,text_column_ 53,"Text column, position-based naming",object,68.6%,16,SB5; 7.1; 7; 7.5; 6.9375
+pH,Unnamed: 54,text_column_ 54,"Text column, position-based naming",object,94.1%,4,SBA; 7.25; 7; 7.5
+pH,Unnamed: 55,text_column_ 55,"Text column, position-based naming",object,93.8%,7,SC1; 7.325; 7.3; 8; 7
+pH,Unnamed: 56,text_column_ 56,"Text column, position-based naming",object,98.1%,4,SC2; 6.25; 6; 6.5
+pH,Unnamed: 57,text_column_ 57,"Text column, position-based naming",object,77.0%,20,SHA; 5.416666666666667; 5.5; 6; 4.5
+pH,Unnamed: 58,text_column_ 58,"Text column, position-based naming",object,82.1%,25,SM1; 7.5; 7.4375; 4.5; 8.5
+pH,Unnamed: 59,text_column_ 59,"Text column, position-based naming",object,89.0%,12,TM1; 7.214285714285714; 7; 7.5; 8
+Turbidity,Unnamed: 0,numeric_column_ 0,"Numeric column, position-based naming",float64,100.0%,0,
+Turbidity,Unnamed: 1,turbidity_value,Contains water quality parameter: turbidity,object,15.2%,27,TURB_NS; Average of Turbidity; Row Labels; 2012; Jan
+Turbidity,Unnamed: 2,text_column_ 2,"Text column, position-based naming",object,94.2%,5,1; Column Labels; AC1; 5; (All)
+Turbidity,Unnamed: 3,text_column_ 3,"Text column, position-based naming",object,96.2%,2,AC5; 5
+Turbidity,Unnamed: 4,text_column_ 4,"Text column, position-based naming",object,46.1%,24,BB1; 13.333333333333334; 25; 10; 15
+Turbidity,Unnamed: 5,text_column_ 5,"Text column, position-based naming",object,89.5%,6,BD1; 10; 20; 5; 32.5
+Turbidity,Unnamed: 6,text_column_ 6,"Text column, position-based naming",object,39.4%,17,BD2; 2.9166666666666665; 0; 10; 5
+Turbidity,Unnamed: 7,text_column_ 7,"Text column, position-based naming",object,43.0%,15,BD3; 0; 0.4166666666666667; 5; 7.777777777777778
+Turbidity,Unnamed: 8,text_column_ 8,"Text column, position-based naming",object,64.2%,15,BD4; 3.875; 0; 5; 8
+Turbidity,Unnamed: 9,text_column_ 9,"Text column, position-based naming",object,48.1%,13,BK1; 10; 8.125; 5; 11
+Turbidity,Unnamed: 10,text_column_ 10,"Text column, position-based naming",object,96.2%,4,CB1; 40; 50; 30
+Turbidity,Unnamed: 11,text_column_ 11,"Text column, position-based naming",object,46.5%,23,CB2; 16; 10; 20; 5
+Turbidity,Unnamed: 12,text_column_ 12,"Text column, position-based naming",object,76.7%,5,CB3; 5; 8.571428571428571; 10; 7.5
+Turbidity,Unnamed: 13,text_column_ 13,"Text column, position-based naming",object,28.0%,21,CB4; 2.0833333333333335; 5; 0; 2.727272727272727
+Turbidity,Unnamed: 14,text_column_ 14,"Text column, position-based naming",object,67.1%,10,CB5; 10; 20; 5; 7.222222222222222
+Turbidity,Unnamed: 15,text_column_ 15,"Text column, position-based naming",object,63.8%,11,CH1; 0; 1; 10; 7.222222222222222
+Turbidity,Unnamed: 16,text_column_ 16,"Text column, position-based naming",object,96.2%,4,CH2; 10; 5; 15
+Turbidity,Unnamed: 17,chloride_value,Contains water quality parameter: chloride,object,36.2%,20,CL1; 8.5; 10; 5; 15
+Turbidity,Unnamed: 18,chloride_value,Contains water quality parameter: chloride,object,62.4%,18,CL2; 11.666666666666666; 15; 10; 5
+Turbidity,Unnamed: 19,chloride_value,Contains water quality parameter: chloride,object,44.1%,17,CL3; 0; 1; 5; 1.25
+Turbidity,Unnamed: 20,text_column_ 20,"Text column, position-based naming",object,36.7%,31,CR1; 23.333333333333332; 5; 10; 100
+Turbidity,Unnamed: 21,text_column_ 21,"Text column, position-based naming",object,34.7%,8,DB1; 0; 5; 3.3333333333333335; 3.75
+Turbidity,Unnamed: 22,text_column_ 22,"Text column, position-based naming",object,60.6%,18,DBA; 12.5; 20; 5; 6.6
+Turbidity,Unnamed: 23,text_column_ 23,"Text column, position-based naming",object,97.5%,2,DE1; 10
+Turbidity,Unnamed: 24,text_column_ 24,"Text column, position-based naming",object,65.5%,13,DP3; 4.545454545454546; 5; 0; 5.25
+Turbidity,Unnamed: 25,text_column_ 25,"Text column, position-based naming",object,57.9%,16,HA1; 0.9090909090909091; 0; 10; 3.6363636363636362
+Turbidity,Unnamed: 26,text_column_ 26,"Text column, position-based naming",object,51.5%,7,HA2; 5; 5.208333333333333; 7.5; 6.5
+Turbidity,Unnamed: 27,text_column_ 27,"Text column, position-based naming",object,25.3%,19,HB3; 0.4166666666666667; 0; 5; 0.45454545454545453
+Turbidity,Unnamed: 28,text_column_ 28,"Text column, position-based naming",object,68.5%,18,HL1; 12.222222222222221; 10; 5; 15
+Turbidity,Unnamed: 29,text_column_ 29,"Text column, position-based naming",object,76.7%,16,HL2; 16.25; 5; 10; 35
+Turbidity,Unnamed: 30,text_column_ 30,"Text column, position-based naming",object,96.0%,3,HL3; 5; 50
+Turbidity,Unnamed: 31,text_column_ 31,"Text column, position-based naming",object,30.6%,28,HO1; 8.75; 15; 5; 10
+Turbidity,Unnamed: 32,text_column_ 32,"Text column, position-based naming",object,42.7%,23,HO2; 4.444444444444445; 5; 0; 10.5
+Turbidity,Unnamed: 33,text_column_ 33,"Text column, position-based naming",object,66.9%,12,HO3; 6.363636363636363; 5; 10; 5.833333333333333
+Turbidity,Unnamed: 34,text_column_ 34,"Text column, position-based naming",object,96.2%,2,JC6; 5
+Turbidity,Unnamed: 35,text_column_ 35,"Text column, position-based naming",object,91.9%,5,MB2; 7.5; 10; 5; 6.666666666666667
+Turbidity,Unnamed: 36,text_column_ 36,"Text column, position-based naming",object,96.2%,2,MI4; 5
+Turbidity,Unnamed: 37,text_column_ 37,"Text column, position-based naming",object,68.5%,17,MR1; 12.142857142857142; 30; 0; 10
+Turbidity,Unnamed: 38,text_column_ 38,"Text column, position-based naming",object,52.8%,22,MR2; 5; 10; 20; 16.25
+Turbidity,Unnamed: 39,text_column_ 39,"Text column, position-based naming",object,47.4%,15,MR3; 8.5; 10; 5; 20
+Turbidity,Unnamed: 40,text_column_ 40,"Text column, position-based naming",object,48.1%,21,MRA; 8; 5; 10; 15
+Turbidity,Unnamed: 41,text_column_ 41,"Text column, position-based naming",object,62.9%,20,MRB; 9.333333333333334; 13; 5; 10
+Turbidity,Unnamed: 42,text_column_ 42,"Text column, position-based naming",object,81.0%,10,MRC; 15; 14.166666666666666; 12.5; 11.666666666666666
+Turbidity,Unnamed: 43,text_column_ 43,"Text column, position-based naming",object,93.3%,5,MRD; 10; 16.666666666666668; 20; 15
+Turbidity,Unnamed: 44,text_column_ 44,"Text column, position-based naming",object,27.3%,22,PL1; 5.909090909090909; 10; 5; 9.545454545454545
+Turbidity,Unnamed: 45,text_column_ 45,"Text column, position-based naming",object,71.1%,11,PR1; 10; 5; 27.5; 9.375
+Turbidity,Unnamed: 46,text_column_ 46,"Text column, position-based naming",object,97.5%,2,PR2; 5
+Turbidity,Unnamed: 47,text_column_ 47,"Text column, position-based naming",object,46.5%,20,RBA; 5; 7.5; 20; 10
+Turbidity,Unnamed: 48,text_column_ 48,"Text column, position-based naming",object,70.2%,13,RO1; 8; 10; 5; 4.444444444444445
+Turbidity,Unnamed: 49,text_column_ 49,"Text column, position-based naming",object,65.3%,11,SB1; 2.5; 5; 0; 10.833333333333334
+Turbidity,Unnamed: 50,text_column_ 50,"Text column, position-based naming",object,23.3%,20,SB2; 5.454545454545454; 5; 10; 7.5
+Turbidity,Unnamed: 51,text_column_ 51,"Text column, position-based naming",object,46.8%,17,SB3; 7.916666666666667; 45; 5; 20
+Turbidity,Unnamed: 52,text_column_ 52,"Text column, position-based naming",object,25.3%,19,SB4; 4.583333333333333; 5; 10; 0
+Turbidity,Unnamed: 53,text_column_ 53,"Text column, position-based naming",object,36.0%,15,SB5; 1; 0; 5; 1.875
+Turbidity,Unnamed: 54,text_column_ 54,"Text column, position-based naming",object,87.9%,2,SBA; 5
+Turbidity,Unnamed: 55,text_column_ 55,"Text column, position-based naming",object,87.2%,2,SC1; 5
+Turbidity,Unnamed: 56,text_column_ 56,"Text column, position-based naming",object,96.2%,2,SC2; 5
+Turbidity,Unnamed: 57,text_column_ 57,"Text column, position-based naming",object,52.3%,11,SHA; 5.833333333333333; 5; 10; 6.428571428571429
+Turbidity,Unnamed: 58,text_column_ 58,"Text column, position-based naming",object,64.9%,13,SM1; 0; 3.75; 5; 13.333333333333334
+Turbidity,Unnamed: 59,text_column_ 59,"Text column, position-based naming",object,77.0%,2,TM1; 0
+DO,Unnamed: 0,numeric_column_ 0,"Numeric column, position-based naming",float64,100.0%,0,
+DO,Unnamed: 3,text_column_ 3,"Text column, position-based naming",object,98.1%,4,AC5; 10.625; 10.25; 11
+DO,Unnamed: 4,text_column_ 4,"Text column, position-based naming",object,72.6%,74,BB1; 7.622222222222224; 12.100000000000001; 11.95; 6.300000000000001
+DO,Unnamed: 5,text_column_ 5,"Text column, position-based naming",object,95.9%,12,BD1; 4.425; 5.35; 3.5; 7.675000000000001
+DO,Unnamed: 6,text_column_ 6,"Text column, position-based naming",object,70.6%,70,BD2; 11.258333333333333; 14.3; 14.600000000000001; 12.9
+DO,Unnamed: 7,text_column_ 7,"Text column, position-based naming",object,71.7%,74,BD3; 10.885000000000002; 12.7; 11.5; 11
+DO,Unnamed: 8,text_column_ 8,"Text column, position-based naming",object,82.8%,48,BD4; 10.96875; 13; 12.2; 10.9
+DO,Unnamed: 9,text_column_ 9,"Text column, position-based naming",object,75.9%,57,BK1; 7.359999999999999; 6.9; 7; 6.75
+DO,Unnamed: 10,text_column_ 10,"Text column, position-based naming",object,96.8%,6,CB1; 6.9125; 5.4; 6.1; 8.149999999999999
+DO,Unnamed: 11,text_column_ 11,"Text column, position-based naming",object,73.8%,72,CB2; 7.8909090909090915; 11.3; 9.7; 8.8
+DO,Unnamed: 12,text_column_ 12,"Text column, position-based naming",object,89.3%,30,CB3; 7.266666666666666; 6.55; 6.1; 9.149999999999999
+DO,Unnamed: 13,text_column_ 13,"Text column, position-based naming",object,65.4%,86,CB4; 8.275; 11.649999999999999; 10; 9.399999999999999
+DO,Unnamed: 14,text_column_ 14,"Text column, position-based naming",object,84.5%,42,CB5; 4.95; 7.75; 2.1500000000000004; 3.7222222222222223
+DO,Unnamed: 15,text_column_ 15,"Text column, position-based naming",object,81.9%,56,CH1; 7.425; 3.9; 10.95; 8.885000000000002
+DO,Unnamed: 16,text_column_ 16,"Text column, position-based naming",object,98.1%,4,CH2; 6.75; 7.6; 5.9
+DO,Unnamed: 17,chloride_value,Contains water quality parameter: chloride,object,68.8%,88,CL1; 8.125; 12.4; 8.95; 7.199999999999999
+DO,Unnamed: 18,chloride_value,Contains water quality parameter: chloride,object,81.6%,51,CL2; 8.591666666666669; 11.5; 12.600000000000001; 12
+DO,Unnamed: 19,chloride_value,Contains water quality parameter: chloride,object,73.6%,73,CL3; 6.5; 2.8; 10.2; 5.804999999999999
+DO,Unnamed: 20,text_column_ 20,"Text column, position-based naming",object,70.3%,83,CR1; 10.950000000000001; 14.5; 14.7; 11
+DO,Unnamed: 21,text_column_ 21,"Text column, position-based naming",object,68.3%,74,DB1; 8.118181818181817; 12; 10; 7.699999999999999
+DO,Unnamed: 22,text_column_ 22,"Text column, position-based naming",object,81.0%,55,DBA; 6.949999999999999; 5.55; 8.35; 6.92
+DO,Unnamed: 23,text_column_ 23,"Text column, position-based naming",object,98.1%,4,DE1; 10.375; 12.3; 8.45
+DO,Unnamed: 24,text_column_ 24,"Text column, position-based naming",object,83.4%,46,DP3; 7.895454545454546; 10.7; 10; 9.45
+DO,Unnamed: 25,text_column_ 25,"Text column, position-based naming",object,80.0%,57,HA1; 7.977777777777778; 12.65; 7.7; 8.75
+DO,Unnamed: 26,text_column_ 26,"Text column, position-based naming",object,76.5%,58,HA2; 8.733333333333333; 8.2; 9; 8.645833333333334
+DO,Unnamed: 27,text_column_ 27,"Text column, position-based naming",object,63.4%,97,HB3; 8.797916666666667; 13; 12.3; 10.4
+DO,Unnamed: 28,text_column_ 28,"Text column, position-based naming",object,84.5%,44,HL1; 10.149999999999999; 10.7; 12.1; 11.9
+DO,Unnamed: 29,text_column_ 29,"Text column, position-based naming",object,90.2%,27,HL2; 8.9375; 9.3; 8; 10.25
+DO,Unnamed: 30,text_column_ 30,"Text column, position-based naming",object,95.7%,9,HL3; 10.3; 9.47; 11.05; 10.8
+DO,Unnamed: 31,text_column_ 31,"Text column, position-based naming",object,65.7%,92,HO1; 9.0875; 12.5; 14.2; 10
+DO,Unnamed: 32,text_column_ 32,"Text column, position-based naming",object,71.9%,70,HO2; 7.522222222222224; 8.6; 6.9; 7.8
+DO,Unnamed: 33,text_column_ 33,"Text column, position-based naming",object,84.1%,47,HO3; 8.485000000000001; 15.9; 10.600000000000001; 7.7
+DO,Unnamed: 34,text_column_ 34,"Text column, position-based naming",object,98.1%,4,JC6; 13.875; 13.9; 13.85
+DO,Unnamed: 35,text_column_ 35,"Text column, position-based naming",object,96.1%,8,MB2; 10.95; 9.5; 12.399999999999999; 10.6
+DO,Unnamed: 36,text_column_ 36,"Text column, position-based naming",object,98.1%,4,MI4; 8.525; 7.45; 9.6
+DO,Unnamed: 37,text_column_ 37,"Text column, position-based naming",object,84.9%,43,MR1; 9.064285714285713; 9.1; 10.3; 6.65
+DO,Unnamed: 38,text_column_ 38,"Text column, position-based naming",object,80.5%,60,MR2; 9.575; 8.9; 10.25; 7.6899999999999995
+DO,Unnamed: 39,text_column_ 39,"Text column, position-based naming",object,75.2%,67,MR3; 6.472222222222222; 12.3; 11.600000000000001; 8.2
+DO,Unnamed: 40,text_column_ 40,"Text column, position-based naming",object,75.5%,70,MRA; 8.559999999999999; 11.8; 9.8; 8.2
+DO,Unnamed: 41,text_column_ 41,"Text column, position-based naming",object,81.8%,57,MRB; 8.9; 7.800000000000001; 8.8; 10.100000000000001
+DO,Unnamed: 42,text_column_ 42,"Text column, position-based naming",object,90.0%,18,MRC; 2.6; 2.52; 2.5; 2.65
+DO,Unnamed: 43,text_column_ 43,"Text column, position-based naming",object,96.7%,6,MRD; 7; 9.225; 9.5; 7.1
+DO,Unnamed: 44,text_column_ 44,"Text column, position-based naming",object,64.4%,90,PL1; 8.386363636363637; 11.1; 10.9; 8.3
+DO,Unnamed: 45,text_column_ 45,"Text column, position-based naming",object,80.6%,51,PR1; 10.031818181818181; 13.75; 15.2; 12.600000000000001
+DO,Unnamed: 46,text_column_ 46,"Text column, position-based naming",object,98.8%,2,PR2; 8.15
+DO,Unnamed: 47,text_column_ 47,"Text column, position-based naming",object,73.8%,70,RBA; 9.541666666666666; 11.85; 11.5; 8.05
+DO,Unnamed: 48,text_column_ 48,"Text column, position-based naming",object,86.1%,42,RO1; 7.609999999999999; 5.75; 6.4; 6.5
+DO,Unnamed: 49,text_column_ 49,"Text column, position-based naming",object,84.3%,51,SB1; 7.925; 13.100000000000001; 9.399999999999999; 6.449999999999999
+DO,Unnamed: 50,text_column_ 50,"Text column, position-based naming",object,62.4%,89,SB2; 9.990909090909092; 13.399999999999999; 14.4; 11.1
+DO,Unnamed: 51,text_column_ 51,"Text column, position-based naming",object,73.9%,70,SB3; 9.733333333333333; 12.600000000000001; 13; 4.6
+DO,Unnamed: 52,text_column_ 52,"Text column, position-based naming",object,63.4%,105,SB4; 10.141666666666667; 13.55; 13.1; 11.55
+DO,Unnamed: 53,text_column_ 53,"Text column, position-based naming",object,68.6%,80,SB5; 9.92; 13.2; 12.3; 10
+DO,Unnamed: 54,text_column_ 54,"Text column, position-based naming",object,94.1%,11,SBA; 10.25; 7.6; 12.9; 9.066666666666666
+DO,Unnamed: 55,text_column_ 55,"Text column, position-based naming",object,93.8%,13,SC1; 7.1875; 5.05; 7.1; 8.1
+DO,Unnamed: 56,text_column_ 56,"Text column, position-based naming",object,98.1%,4,SC2; 9.2; 8.5; 9.9
+DO,Unnamed: 57,text_column_ 57,"Text column, position-based naming",object,78.6%,65,SHA; 6.1000000000000005; 8.9; 3.9; 5.8
+DO,Unnamed: 58,text_column_ 58,"Text column, position-based naming",object,82.1%,46,SM1; 8.15; 7.8; 8.35; 8.4
+DO,Unnamed: 59,text_column_ 59,"Text column, position-based naming",object,89.0%,29,TM1; 8.616666666666665; 7.4; 7.25; 7.35
+Descriptive Stats,Unnamed: 0,numeric_column_ 0,"Numeric column, position-based naming",float64,100.0%,0,
+Descriptive Stats,Unnamed: 1,measurement_date,Date/time data detected,object,27.2%,110,Count of Date; 1992; 1993; 1994; 1995
+Descriptive Stats,Unnamed: 2,text_column_ 2,"Text column, position-based naming",object,45.7%,64,128; 1; 2; Data Pts; 8
+Descriptive Stats,Unnamed: 3,text_column_ 3,"Text column, position-based naming",object,45.7%,28,AC1; 2; 6; 8; Yrs
+Descriptive Stats,Unnamed: 4,text_column_ 4,"Text column, position-based naming",object,45.0%,34,AC5; 2; 12; 3; 17
+Descriptive Stats,Unnamed: 5,text_column_ 5,"Text column, position-based naming",object,47.0%,9,AX1; 8; 3; 11; 2
+Descriptive Stats,Unnamed: 6,text_column_ 6,"Text column, position-based naming",object,48.3%,72,AX2; 10; 1; Habitat; 236.1461258772759
+Descriptive Stats,Unnamed: 7,text_column_ 7,"Text column, position-based naming",object,77.5%,23,BB1; 13; 23; 27; 20
+Descriptive Stats,Unnamed: 8,text_column_ 8,"Text column, position-based naming",object,81.5%,14,BD1; 1; 11; 24; 22
+Descriptive Stats,Unnamed: 9,text_column_ 9,"Text column, position-based naming",object,55.6%,52,BD2; 12; 27; 24; 22
+Descriptive Stats,Unnamed: 10,text_column_ 10,"Text column, position-based naming",object,59.6%,39,BD3; 12; 27; 26; 24
+Descriptive Stats,Unnamed: 11,text_column_ 11,"Text column, position-based naming",object,77.5%,21,BD4; 12; 26; 25; 16
+Descriptive Stats,Unnamed: 12,text_column_ 12,"Text column, position-based naming",object,90.1%,10,BK1; 6; 8; 4; 5
+Descriptive Stats,Unnamed: 13,text_column_ 13,"Text column, position-based naming",object,60.3%,53,CB1; 12; 25; 27; 22
+Descriptive Stats,Unnamed: 14,text_column_ 14,"Text column, position-based naming",object,65.6%,41,CB2; 8; 11; 9; 5
+Descriptive Stats,Unnamed: 15,text_column_ 15,"Text column, position-based naming",object,93.4%,8,CB3; 8; 4; 7; 1
+Descriptive Stats,Unnamed: 16,text_column_ 16,"Text column, position-based naming",object,86.8%,12,CB4; 7; 21; 23; 10
+Descriptive Stats,Unnamed: 17,text_column_ 17,"Text column, position-based naming",object,90.1%,14,CB5; 4; 11; 7; 10
+Descriptive Stats,Unnamed: 18,text_column_ 18,"Text column, position-based naming",object,92.7%,9,CC1; 3; 6; 2; Sum of Data Pts
+Descriptive Stats,Unnamed: 19,text_column_ 19,"Text column, position-based naming",object,91.4%,8,CH1; 2; 10; 9; 4
+Descriptive Stats,Unnamed: 20,text_column_ 20,"Text column, position-based naming",object,96.7%,3,CH2; 2; 1
+Descriptive Stats,Unnamed: 21,chloride_value,Contains water quality parameter: chloride,object,78.8%,18,CL1; 12; 26; 25; 24
+Descriptive Stats,Unnamed: 22,chloride_value,Contains water quality parameter: chloride,object,80.8%,20,CL2; 12; 22; 25; 16
+Descriptive Stats,Unnamed: 23,chloride_value,Contains water quality parameter: chloride,object,79.5%,20,CL3; 12; 25; 26; 22
+Descriptive Stats,Unnamed: 24,text_column_ 24,"Text column, position-based naming",object,96.0%,5,COL1; 4; 3; 7; 2
+Descriptive Stats,Unnamed: 25,text_column_ 25,"Text column, position-based naming",object,82.1%,18,CR1; 8; 22; 25; 24
+Descriptive Stats,Unnamed: 26,text_column_ 26,"Text column, position-based naming",object,76.8%,21,DB1; 12; 25; 26; 13
+Descriptive Stats,Unnamed: 27,text_column_ 27,"Text column, position-based naming",object,89.4%,10,DBA; 4; 10; 20; 5
+Descriptive Stats,Unnamed: 28,text_column_ 28,"Text column, position-based naming",object,94.0%,7,DE1; 12; 3; 2; 9
+Descriptive Stats,Unnamed: 29,text_column_ 29,"Text column, position-based naming",object,89.4%,9,DP3; 12; 16; 8; 10
+Descriptive Stats,Unnamed: 30,text_column_ 30,"Text column, position-based naming",object,96.0%,5,EB1; 4; 3; 7; 2
+Descriptive Stats,Unnamed: 31,text_column_ 31,"Text column, position-based naming",object,79.5%,13,HA1; 12; 24; 27; 25
+Descriptive Stats,Unnamed: 32,text_column_ 32,"Text column, position-based naming",object,92.1%,7,HA2; 3; 12; 10; 11
+Descriptive Stats,Unnamed: 33,text_column_ 33,"Text column, position-based naming",object,92.7%,10,HB1; 12; 27; 26; 21
+Descriptive Stats,Unnamed: 34,text_column_ 34,"Text column, position-based naming",object,92.1%,10,HB2; 5; 26; 24; 25
+Descriptive Stats,Unnamed: 35,text_column_ 35,"Text column, position-based naming",object,85.4%,11,HB3; 2; 24; 23; 12
+Descriptive Stats,Unnamed: 36,text_column_ 36,"Text column, position-based naming",object,82.1%,18,HL1; 12; 24; 22; 23
+Descriptive Stats,Unnamed: 37,text_column_ 37,"Text column, position-based naming",object,93.4%,7,HL2; 4; 9; 5; 2
+Descriptive Stats,Unnamed: 38,text_column_ 38,"Text column, position-based naming",object,95.4%,5,HL3; 1; 5; 7; 3
+Descriptive Stats,Unnamed: 39,text_column_ 39,"Text column, position-based naming",object,76.8%,17,HO1; 12; 24; 26; 21
+Descriptive Stats,Unnamed: 40,text_column_ 40,"Text column, position-based naming",object,89.4%,11,HO2; 1; 9; 10; 7
+Descriptive Stats,Unnamed: 41,text_column_ 41,"Text column, position-based naming",object,91.4%,9,HO3; 1; 3; 9; 11
+Descriptive Stats,Unnamed: 42,text_column_ 42,"Text column, position-based naming",object,95.4%,5,JC6; 2; 11; 3; 16
+Descriptive Stats,Unnamed: 43,text_column_ 43,"Text column, position-based naming",object,96.0%,4,LSC1; 2; 3; 5
+Descriptive Stats,Unnamed: 44,text_column_ 44,"Text column, position-based naming",object,88.1%,12,MB1; 12; 25; 22; 10
+Descriptive Stats,Unnamed: 45,text_column_ 45,"Text column, position-based naming",object,96.0%,4,MB2; 2; 3; 5
+Descriptive Stats,Unnamed: 46,text_column_ 46,"Text column, position-based naming",object,96.0%,5,MB3; 10; 3; 13; 2
+Descriptive Stats,Unnamed: 47,text_column_ 47,"Text column, position-based naming",object,94.0%,8,MB5; 7; 19; 21; 13
+Descriptive Stats,Unnamed: 48,text_column_ 48,"Text column, position-based naming",object,96.0%,4,MI4; 2; 9; 11
+Descriptive Stats,Unnamed: 49,text_column_ 49,"Text column, position-based naming",object,96.0%,5,MI4b; 1; 3; 4; 2
+Descriptive Stats,Unnamed: 50,text_column_ 50,"Text column, position-based naming",object,96.0%,5,MO1; 4; 1; 5; 2
+Descriptive Stats,Unnamed: 51,text_column_ 51,"Text column, position-based naming",object,80.1%,20,MR1; 12; 25; 27; 24
+Descriptive Stats,Unnamed: 52,text_column_ 52,"Text column, position-based naming",object,77.5%,17,MR2; 12; 23; 26; 14
+Descriptive Stats,Unnamed: 53,text_column_ 53,"Text column, position-based naming",object,79.5%,19,MR3; 12; 23; 21; 17
+Descriptive Stats,Unnamed: 54,text_column_ 54,"Text column, position-based naming",object,86.8%,13,MRA; 4; 3; 15; 11
+Descriptive Stats,Unnamed: 55,text_column_ 55,"Text column, position-based naming",object,92.1%,8,MRB; 3; 10; 5; 14
+Descriptive Stats,Unnamed: 56,text_column_ 56,"Text column, position-based naming",object,92.7%,7,MRC; 3; 1; 5; 4
+Descriptive Stats,Unnamed: 57,text_column_ 57,"Text column, position-based naming",object,95.4%,5,MRD; 1; 3; 4; 8
+Descriptive Stats,Unnamed: 58,text_column_ 58,"Text column, position-based naming",object,82.1%,12,PL1; 3; 10; 8; 21
+Descriptive Stats,Unnamed: 59,text_column_ 59,"Text column, position-based naming",object,85.4%,20,PR1; 23; 21; 22; 16
+Descriptive Stats,Unnamed: 60,text_column_ 60,"Text column, position-based naming",object,96.0%,5,PR2; 1; 8; 9; 2
+Descriptive Stats,Unnamed: 61,text_column_ 61,"Text column, position-based naming",object,96.0%,3,PR2a; 1; 2
+Descriptive Stats,Unnamed: 62,text_column_ 62,"Text column, position-based naming",object,90.7%,8,RBA; 9; 11; 6; 12
+Descriptive Stats,Unnamed: 63,text_column_ 63,"Text column, position-based naming",object,89.4%,15,RO1; 5; 9; 4; 1
+Descriptive Stats,Unnamed: 64,text_column_ 64,"Text column, position-based naming",object,79.5%,16,SB1; 12; 24; 26; 25
+Descriptive Stats,Unnamed: 65,text_column_ 65,"Text column, position-based naming",object,76.8%,16,SB2; 13; 26; 25; 21
+Descriptive Stats,Unnamed: 66,text_column_ 66,"Text column, position-based naming",object,90.7%,9,SB3; 12; 23; 13; 1
+Descriptive Stats,Unnamed: 67,text_column_ 67,"Text column, position-based naming",object,78.1%,16,SB4; 13; 23; 24; 25
+Descriptive Stats,Unnamed: 68,text_column_ 68,"Text column, position-based naming",object,73.5%,17,SB5; 14; 26; 25; 24
+Descriptive Stats,Unnamed: 69,text_column_ 69,"Text column, position-based naming",object,94.7%,5,SBA; 2; 6; 4; 14
+Descriptive Stats,Unnamed: 70,text_column_ 70,"Text column, position-based naming",object,95.4%,6,SC1; 4; 5; 2; 11
+Descriptive Stats,Unnamed: 71,text_column_ 71,"Text column, position-based naming",object,96.0%,4,SC2; 2; 7; 9
+Descriptive Stats,Unnamed: 72,text_column_ 72,"Text column, position-based naming",object,96.0%,5,SC3; 8; 3; 11; 2
+Descriptive Stats,Unnamed: 73,text_column_ 73,"Text column, position-based naming",object,87.4%,16,SHA; 10; 14; 21; 6
+Descriptive Stats,Unnamed: 74,text_column_ 74,"Text column, position-based naming",object,81.5%,17,SM1; 13; 22; 21; 23
+Descriptive Stats,Unnamed: 75,text_column_ 75,"Text column, position-based naming",object,96.0%,5,SW1; 9; 3; 12; 2
+Descriptive Stats,Unnamed: 76,text_column_ 76,"Text column, position-based naming",object,86.8%,15,TM1; 1; 10; 18; 11
+Descriptive Stats,Unnamed: 77,text_column_ 77,"Text column, position-based naming",object,78.1%,31,Total Samples; 210; 463; 577; 544
+Descriptive Stats,Unnamed: 78,temperature_celsius,Temperature range detected,float64,79.5%,16,18.0; 23.0; 25.0; 24.0; 27.0
+Time Graphs,Unnamed: 0,ph_value,Contains water quality parameter: ph,object,96.5%,7,Air Temperature; Water Temperature; Nitrate; Phosphate; pH
+Parameter Graphs,Unnamed: 0,numeric_column_ 0,"Numeric column, position-based naming",float64,100.0%,0,
+Parameter Graphs,Unnamed: 1,text_column_ 1,"Text column, position-based naming",object,99.0%,1,More Granular BACT Data
+Exceedance Graphs,Unnamed: 0,numeric_column_ 0,"Numeric column, position-based naming",float64,100.0%,0,
+Exceedance Graphs,Unnamed: 1,ph_value,Contains water quality parameter: ph,object,20.0%,8,State Surface Water Quality Standards; Water Temperature; Nitrate; Phosphate; pH
+Exceedance Graphs,Unnamed: 2,numeric_column_ 2,"Numeric column, position-based naming",float64,100.0%,0,
+Exceedance Graphs,Unnamed: 3,text_column_ 3,"Text column, position-based naming",object,80.0%,2,(drinking); (single)
+Exceedance Graphs,Unnamed: 4,text_column_ 4,"Text column, position-based naming",object,30.0%,7,not exceed 31˚C; not exceed 10 ppm; not exceed 0.1 ppm; between 6.5 - 8.5; not exceed 50 NTU
+IR Changes,Unnamed: 2,turbidity_value,Contains water quality parameter: turbidity,object,72.0%,27,2014; 153; 616; 189; 958
+IR Changes,Unnamed: 3,text_column_ 3,"Text column, position-based naming",object,76.6%,24,2016; 164; 615; 179; 958
+IR Changes,Unnamed: 4,ph_value,Contains water quality parameter: ph,object,76.6%,23,18/20; 178; 654; 126; 958
+IR Changes,Unnamed: 5,ph_value,Contains water quality parameter: ph,object,76.6%,24,2012; 19; 20; 58; pH
+IR Changes,Unnamed: 6,text_column_ 6,"Text column, position-based naming",object,81.3%,20,2014; 22; 112; 66; 200
+IR Changes,Unnamed: 7,text_column_ 7,"Text column, position-based naming",object,86.0%,14,2016; 27; 116; 56; 199
+IR Changes,Unnamed: 8,text_column_ 8,"Text column, position-based naming",object,95.3%,5,18/20; 36; 114; 49; 199
+IR Changes,Unnamed: 10,numeric_column_ 10,"Numeric column, position-based naming",float64,95.3%,5,2014.0; 230.0; 391.0; 337.0; 958.0
+IR Changes,Unnamed: 11,numeric_column_ 11,"Numeric column, position-based naming",float64,95.3%,5,2016.0; 232.0; 410.0; 316.0; 958.0
+IR Changes,Unnamed: 12,text_column_ 12,"Text column, position-based naming",object,95.3%,5,18/20; 228; 476; 238; 942
+IR Changes,Unnamed: 14,numeric_column_ 14,"Numeric column, position-based naming",float64,95.3%,5,2014.0; 305.0; 309.0; 212.0; 826.0
+IR Changes,Unnamed: 15,numeric_column_ 15,"Numeric column, position-based naming",float64,95.3%,5,2016.0; 305.0; 353.0; 159.0; 817.0
+IR Changes,Unnamed: 16,text_column_ 16,"Text column, position-based naming",object,95.3%,5,18/20; 251; 449; 125; 825
+IR Changes,Unnamed: 18,numeric_column_ 18,"Numeric column, position-based naming",float64,95.3%,5,2014.0; 35.0; 117.0; 22.0; 174.0
+IR Changes,Unnamed: 19,numeric_column_ 19,"Numeric column, position-based naming",float64,95.3%,5,2016.0; 34.0; 118.0; 22.0; 174.0
+IR Changes,Unnamed: 20,text_column_ 20,"Text column, position-based naming",object,95.3%,5,18/20; 34; 118; 22; 174
+IR Changes,Unnamed: 22,numeric_column_ 22,"Numeric column, position-based naming",float64,95.3%,5,2014.0; 1.0; 342.0; 615.0; 958.0
+IR Changes,Unnamed: 23,numeric_column_ 23,"Numeric column, position-based naming",float64,95.3%,5,2016.0; 6.0; 339.0; 613.0; 958.0
+IR Changes,Unnamed: 24,text_column_ 24,"Text column, position-based naming",object,95.3%,5,18/20; 6; 343; 609; 958
+Sheet1,Unnamed: 0,numeric_column_ 0,"Numeric column, position-based naming",float64,100.0%,0,
+Sheet1,Unnamed: 1,measurement_date,Date/time data detected,object,0.0%,1840,Date; 1995-01-15 00:00:00; 1995-01-28 00:00:00; 1995-02-12 00:00:00; 1995-02-25 00:00:00
+Sheet1,Unnamed: 2,temperature_value,Contains water quality parameter: temperature,object,0.0%,1039,Water Temperature; 8; 4; 3; 5
+Sheet1,Unnamed: 3,text_column_ 3,"Text column, position-based naming",object,0.0%,13,month; 1; 2; 3; 4
+Sheet1,Unnamed: 4,text_column_ 4,"Text column, position-based naming",object,0.0%,32,year; 1995; 1996; 1997; 1998
