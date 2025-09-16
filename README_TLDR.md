@@ -17,10 +17,16 @@
 ## 📁 **Key Files**
 ```
 streamwatch-data/
-├── README.md                           # This overview
+├── README.md                          # This overview
 ├── config.py                          # Database settings
-├── streamwatch_etl.py                 # Main data processing
-├── create_database_schema.py          # Database setup
+├── scripts/
+│   ├── etl/                           # Data processing scripts
+│   │   ├── streamwatch_etl.py         # Main ETL pipeline
+│   │   ├── create_database_schema.py  # Database setup
+│   │   └── setup_and_run.py          # Automated setup
+│   └── tools/                         # Analysis tools
+│       ├── test_connection.py         # Test database
+│       └── database_explorer.py       # Explore data
 ├── data/raw/                          # Original Excel files
 ├── documentation/                     # Full project docs
 └── data_verification/                 # Next steps plan
@@ -28,9 +34,10 @@ streamwatch-data/
 
 ## 🚀 **Quick Start**
 1. **Setup:** `pip install -r requirements.txt`
-2. **Database:** Run `create_database_schema.py`
-3. **Load Data:** Run `streamwatch_etl.py`
-4. **Verify:** Follow `data_verification/DATA_CLEANING_VERIFICATION_PLAN.md`
+2. **Database:** Run `scripts/etl/create_database_schema.py`
+3. **Load Data:** Run `scripts/etl/streamwatch_etl.py`
+4. **Test:** Run `scripts/tools/test_connection.py`
+5. **Verify:** Follow `data_verification/DATA_CLEANING_VERIFICATION_PLAN.md`
 
 ## 🎯 **Next Steps**
 - **Data Verification:** Check that all cleaning worked correctly (2-3 weeks)

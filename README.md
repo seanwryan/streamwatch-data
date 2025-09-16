@@ -22,36 +22,37 @@ This project transformed 32 years of StreamWatch environmental monitoring data f
 ```
 streamwatch-data/
 ├── 📊 data/
-│   ├── raw/                          # Original Excel files
-│   │   ├── All StreamWatch Data.xlsx
-│   │   ├── 2025 StreamWatch Locations.xlsx
-│   │   ├── BATSITES COLLECTED.xlsx
-│   │   ├── BACT and HAB 2025 Data.xlsx
-│   │   ├── tblSampleDates.xlsx
-│   │   ├── Volunteer_Tracking.xlsm
-│   │   └── [other Excel files]
-│   └── Documentation/                # Original project documentation
+│   └── raw/                          # Original Excel files (ignored by git)
+│       ├── All StreamWatch Data.xlsx
+│       ├── 2025 StreamWatch Locations.xlsx
+│       ├── BATSITES COLLECTED.xlsx
+│       ├── BACT and HAB 2025 Data.xlsx
+│       ├── tblSampleDates.xlsx
+│       ├── Volunteer_Tracking.xlsm
+│       └── [other Excel files]
 ├── 📝 documentation/
 │   └── STREAMWATCH_PROJECT_DOCUMENTATION.md  # Complete project documentation
 ├── 🔍 data_verification/
 │   └── DATA_CLEANING_VERIFICATION_PLAN.md    # Data verification strategy
-├── 🐍 Python Scripts (root directory)
-│   ├── config.py                     # Database configuration
-│   ├── create_database_schema.py     # Database creation
-│   ├── streamwatch_etl.py           # Main ETL pipeline
-│   ├── setup_and_run.py             # Automated setup
-│   ├── load_bugs_simple.py          # Bug data loading
-│   ├── load_remaining_tables_fixed.py # Additional table loading
-│   └── test_connection.py           # Database testing
-├── 🐳 Docker Files
-│   ├── docker-compose.yml           # Container orchestration
-│   ├── env_template.txt             # Environment template
-│   └── init_scripts/                # Database initialization
+├── 🐍 scripts/
+│   ├── etl/                          # ETL pipeline scripts
+│   │   ├── create_database_schema.py # Database creation
+│   │   ├── streamwatch_etl.py       # Main ETL pipeline
+│   │   ├── load_remaining_tables.py # Additional table loading
+│   │   └── setup_and_run.py         # Automated setup
+│   └── tools/                        # Analysis and testing tools
+│       ├── database_explorer.py     # Interactive database exploration
+│       ├── data_analyzer.py         # Data analysis tool
+│       ├── data_summary.py          # Generate reports
+│       └── test_connection.py       # Database testing
 ├── 📋 Configuration
+│   ├── config.py                     # Database configuration
 │   └── requirements.txt             # Python dependencies
-├── 📊 Logs
+├── 📊 logs/
 │   └── etl_pipeline.log             # ETL process logs
-└── 📚 This README
+└── 📚 README files
+    ├── README.md                     # Full project overview
+    └── README_TLDR.md               # Quick summary
 ```
 
 ---
@@ -131,11 +132,11 @@ The primary focus now is **data verification** to ensure all cleaning transforma
 - **Environment:** macOS with Docker support
 
 ### **Key Scripts:**
-- **`streamwatch_etl.py`** - Main ETL pipeline
-- **`create_database_schema.py`** - Database creation
-- **`test_connection.py`** - Connection testing
-- **`load_bugs_simple.py`** - Simplified bug loading
-- **`load_remaining_tables_fixed.py`** - Additional table loading
+- **`scripts/etl/streamwatch_etl.py`** - Main ETL pipeline
+- **`scripts/etl/create_database_schema.py`** - Database creation
+- **`scripts/tools/test_connection.py`** - Connection testing
+- **`scripts/etl/load_remaining_tables.py`** - Additional table loading
+- **`scripts/etl/setup_and_run.py`** - Automated setup and execution
 
 ### **Data Transformations Applied:**
 - Column name mapping (Excel → Database)
