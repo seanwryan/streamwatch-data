@@ -80,7 +80,9 @@ def check_data_files():
 
 def setup_database():
     """Set up the database schema"""
-    return run_command("python create_database_schema.py", "Database schema creation")
+    print("⚠️  Database schema creation step removed - database should already exist")
+    print("   If you need to create the database, contact the project team")
+    return True
 
 def run_etl():
     """Run the ETL pipeline"""
