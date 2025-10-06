@@ -6,13 +6,14 @@ Contains database connection settings and data file paths
 import os
 from pathlib import Path
 
-# Database configuration
+# Database configuration - Neon PostgreSQL
 DB_CONFIG = {
-    'host': 'localhost',
+    'host': 'ep-wild-rice-ad71vs5v-pooler.c-2.us-east-1.aws.neon.tech',
     'port': 5432,
-    'database': 'streamwatch',
-    'user': 'streamwatch_user',
-    'password': 'password'
+    'database': 'neondb',
+    'user': 'neondb_owner',
+    'password': 'npg_VyEJt6lz2iwa',
+    'sslmode': 'require'
 }
 
 # Data file paths
