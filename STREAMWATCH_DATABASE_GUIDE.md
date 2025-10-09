@@ -32,7 +32,7 @@ This project transforms 32+ years of StreamWatch environmental monitoring data f
 - **Port:** `5432`
 - **Database:** `neondb`
 - **Username:** `streamwatch_edit` (for full access)
-- **Password:** `streamwatch_edit_2024`
+- **Password:** `[Contact team for password]`
 - **SSL:** Check "Use SSL"
 - Test connection → Finish
 
@@ -47,17 +47,17 @@ This project transforms 32+ years of StreamWatch environmental monitoring data f
 
 ### **Edit User (Full Access)**
 - **Username:** `streamwatch_edit`
-- **Password:** `streamwatch_edit_2024`
+- **Password:** `[Contact team for password]`
 - **Permissions:** Read, write, create, delete
 
 ### **Read-Only User (View Only)**
 - **Username:** `streamwatch_readonly`
-- **Password:** `streamwatch_readonly_2024`
+- **Password:** `[Contact team for password]`
 - **Permissions:** Read only
 
 ### **Connection String:**
 ```
-postgresql://streamwatch_edit:streamwatch_edit_2024@ep-wild-rice-ad71vs5v-pooler.c-2.us-east-1.aws.neon.tech:5432/neondb?sslmode=require
+postgresql://streamwatch_edit:[PASSWORD]@ep-wild-rice-ad71vs5v-pooler.c-2.us-east-1.aws.neon.tech:5432/neondb?sslmode=require
 ```
 
 ---

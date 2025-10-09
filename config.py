@@ -7,13 +7,14 @@ import os
 from pathlib import Path
 
 # Database configuration - Neon PostgreSQL
+# Use environment variables for security
 DB_CONFIG = {
-    'host': 'ep-wild-rice-ad71vs5v-pooler.c-2.us-east-1.aws.neon.tech',
-    'port': 5432,
-    'database': 'neondb',
-    'user': 'neondb_owner',
-    'password': 'npg_VyEJt6lz2iwa',
-    'sslmode': 'require'
+    'host': os.getenv('DB_HOST', 'ep-wild-rice-ad71vs5v-pooler.c-2.us-east-1.aws.neon.tech'),
+    'port': int(os.getenv('DB_PORT', '5432')),
+    'database': os.getenv('DB_NAME', 'neondb'),
+    'user': os.getenv('DB_USER', 'neondb_owner'),
+    'password': os.getenv('DB_PASSWORD', ''),
+    'sslmode': os.getenv('DB_SSLMODE', 'require')
 }
 
 # Data file paths

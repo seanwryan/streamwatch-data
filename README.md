@@ -49,7 +49,7 @@ This project transforms 32+ years of StreamWatch environmental monitoring data f
 |------|---------|
 | **`STREAMWATCH_DATABASE_GUIDE.md`** | **Complete guide - everything you need!** |
 | **`example_queries_for_team.sql`** | Ready-to-use SQL queries |
-| **`connection_strings.txt`** | Connection details reference |
+| **`env.example`** | Environment variables template |
 
 ---
 
@@ -57,13 +57,15 @@ This project transforms 32+ years of StreamWatch environmental monitoring data f
 
 ### **Edit User (Full Access)**
 - **Username:** `streamwatch_edit`
-- **Password:** `streamwatch_edit_2024`
+- **Password:** `[Contact team for password]`
 - **Permissions:** Read, write, create, delete
 
 ### **Read-Only User (View Only)**
 - **Username:** `streamwatch_readonly`
-- **Password:** `streamwatch_readonly_2024`
+- **Password:** `[Contact team for password]`
 - **Permissions:** Read only
+
+**🔐 Credentials are shared securely - contact the team for access**
 
 ---
 
