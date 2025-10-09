@@ -1,0 +1,50 @@
+# StreamWatch Database Connection Strings
+# Copy and paste these into your database tool
+
+# ===========================================
+# READ-ONLY USER (for data exploration)
+# ===========================================
+# Connection String:
+postgresql://streamwatch_readonly:streamwatch_readonly_2024@ep-wild-rice-ad71vs5v-pooler.c-2.us-east-1.aws.neon.tech:5432/neondb?sslmode=require
+
+# Individual Settings:
+Host: ep-wild-rice-ad71vs5v-pooler.c-2.us-east-1.aws.neon.tech
+Port: 5432
+Database: neondb
+Username: streamwatch_readonly
+Password: streamwatch_readonly_2024
+SSL Mode: require
+
+# ===========================================
+# EDIT USER (for data validation/corrections)
+# ===========================================
+# Connection String:
+postgresql://streamwatch_edit:streamwatch_edit_2024@ep-wild-rice-ad71vs5v-pooler.c-2.us-east-1.aws.neon.tech:5432/neondb?sslmode=require
+
+# Individual Settings:
+Host: ep-wild-rice-ad71vs5v-pooler.c-2.us-east-1.aws.neon.tech
+Port: 5432
+Database: neondb
+Username: streamwatch_edit
+Password: streamwatch_edit_2024
+SSL Mode: require
+
+# ===========================================
+# QUICK TEST QUERIES
+# ===========================================
+# Test connection:
+SELECT 'Connection successful!' as status, COUNT(*) as total_sites FROM sites;
+
+# View all tables:
+SELECT table_name, 
+       (SELECT COUNT(*) FROM information_schema.columns WHERE table_name = t.table_name) as column_count
+FROM information_schema.tables t 
+WHERE table_schema = 'public' 
+ORDER BY table_name;
+
+# Recent bacteria tests:
+SELECT site_code, collection_date, e_coli 
+FROM bacteria 
+WHERE collection_date IS NOT NULL 
+ORDER BY collection_date DESC 
+LIMIT 5;

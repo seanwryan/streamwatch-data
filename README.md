@@ -1,88 +1,118 @@
-# StreamWatch Data Pipeline - Project Summary
-**For: Watershed Institute Team**  
-**Date: December 2024**
+# StreamWatch Data Pipeline
+**Environmental Monitoring Database for Watershed Institute**
 
 ---
 
-## 🎯 **What This Project Is**
+## 🎯 **Project Overview**
 
-This project transforms 32 years of StreamWatch environmental monitoring data (1992-2024) from Excel files into a PostgreSQL database for analysis, reporting, and visualization.
+This project transforms 32+ years of StreamWatch environmental monitoring data from Excel files into a PostgreSQL database hosted on Neon cloud. The database is fully loaded and ready for data validation, analysis, and reporting.
 
 **Data includes:**
-- 3,608 water quality samples across 168 monitoring sites
-- 7,274 macroinvertebrate (bug) records
-- 622 bacteria test results
-- 50+ volunteer records
-- Site locations with GPS coordinates
+- **168 monitoring sites** with GPS coordinates and metadata
+- **16,909 water quality samples** (1992-2024) with pH, temperature, dissolved oxygen, etc.
+- **691 bacteria test results** (E.coli data from 2025)
+- **7,339 macroinvertebrate records** (bug collection data)
+- **149 taxonomy records** (bug identification reference)
+- **428 volunteer records** with training status
+
+**Total: 25,684 records** across 6 tables
+
+---
+
+## 🚀 **Quick Start for Watershed Team**
+
+### **1. Download DBeaver (Recommended)**
+- Go to https://dbeaver.io/
+- Download free Community Edition
+- Install and open
+
+### **2. Connect to Database**
+- Click "New Database Connection" → "PostgreSQL"
+- **Host:** `ep-wild-rice-ad71vs5v-pooler.c-2.us-east-1.aws.neon.tech`
+- **Port:** `5432`
+- **Database:** `neondb`
+- **Username:** `streamwatch_edit` (for full access)
+- **Password:** `streamwatch_edit_2024`
+- **SSL:** Check "Use SSL"
+- Test connection → Finish
+
+### **3. Start Exploring**
+- Expand connection → `neondb` → `Schemas` → `public` → `Tables`
+- Right-click any table → "View Data"
+- Use the SQL editor to run queries
+
+---
+
+## 📚 **Documentation**
+
+| File | Purpose |
+|------|---------|
+| **`STREAMWATCH_DATABASE_GUIDE.md`** | **Complete guide - everything you need!** |
+| **`example_queries_for_team.sql`** | Ready-to-use SQL queries |
+| **`connection_strings.txt`** | Connection details reference |
+
+---
+
+## 🔑 **Database Access**
+
+### **Edit User (Full Access)**
+- **Username:** `streamwatch_edit`
+- **Password:** `streamwatch_edit_2024`
+- **Permissions:** Read, write, create, delete
+
+### **Read-Only User (View Only)**
+- **Username:** `streamwatch_readonly`
+- **Password:** `streamwatch_readonly_2024`
+- **Permissions:** Read only
+
+---
+
+## 🛠️ **Tools & Scripts**
+
+### **For Watershed Team:**
+- **`test_team_access.py`** - Test database connection
+- **`example_queries_for_team.sql`** - Copy/paste SQL queries
+- **`STREAMWATCH_DATABASE_GUIDE.md`** - Complete guide with everything
+
+### **For Technical Team:**
+- **`scripts/etl/`** - ETL pipeline scripts
+- **`scripts/tools/`** - Database utilities
+- **`config.py`** - Database configuration
+- **`requirements.txt`** - Python dependencies
 
 ---
 
 ## 📊 **Current Status**
 
 ### **✅ Completed:**
-- PostgreSQL database created with 14 tables
-- ETL pipeline scripts developed
-- All source Excel files organized
-- Database accessible and ready for use
+- ✅ Neon PostgreSQL database created and configured
+- ✅ All 6 tables created with proper schema
+- ✅ 25,684 records loaded successfully
+- ✅ Read-only and edit users created
+- ✅ Connection tested and verified
+- ✅ Documentation created
 
-### **⚠️ In Progress:**
-- Data loading partially complete (some tables loaded, others failed due to technical issues)
-- ETL pipeline needs debugging for column name mismatches
-- Data validation not yet started
-
-### **📋 Next Steps:**
-1. Fix ETL pipeline technical issues
-2. Complete data loading for all tables
-3. Begin systematic data validation
-4. Develop dashboards and reporting tools
+### **🎯 Ready for:**
+- Data validation by the Watershed team
+- Data quality checks and corrections
+- Analysis and reporting
+- Dashboard development
 
 ---
 
-## 🗄️ **Database Information**
+## 🎉 **You're Ready!**
 
-**Connection Details:**
-- **Host:** localhost:5432
-- **Database:** streamwatch
-- **Username:** streamwatch_user
-- **Password:** password
+The database is fully operational with 32+ years of StreamWatch data. The Watershed team can now:
 
-**Access Methods:**
-- **pgAdmin (Desktop App):** Recommended for beginners
-- **Command Line (terminal):** `psql -h localhost -U streamwatch_user -d streamwatch`
-- **Python Scripts:** Available in the project
+1. **Connect** using DBeaver or pgAdmin
+2. **Explore** all the data tables
+3. **Validate** data quality
+4. **Make corrections** as needed
+5. **Analyze** trends and patterns
+6. **Export** data for reports
 
----
-
-## 📁 **Project Structure**
-
-```
-streamwatch-data/
-├── 📊 data/raw/                    # Original Excel files
-├── 🐍 scripts/                     # ETL and analysis scripts
-├── 📋 PROJECT_SUMMARY.md          # This overview
-├── 🔧 TECHNICAL_DETAILS.md        # Loading/cleaning steps
-├── 📚 USER_GUIDE.md               # How to use the database
-├── 📄 config.py                   # Database configuration
-└── 📄 requirements.txt            # Python dependencies
-```
-
-## 📞 **Getting Started**
-
-1. **Read this summary** to understand the project scope
-2. **Check `TECHNICAL_DETAILS.md`** to understand what's been done
-3. **Use `USER_GUIDE.md`** to learn how to access the database
-4. **Plan your next steps** based on your role and needs
-
-## 🎯 **Project Goals**
-
-**Primary Goal:** Create a clean, organized database of 32 years of StreamWatch data for analysis and reporting.
-
-**Success Criteria:**
-- All data successfully loaded and validated
-- Database accessible to team members
-- Data quality verified and documented
-- Ready for dashboard development and analysis
+**Start with `STREAMWATCH_DATABASE_GUIDE.md` for everything you need!**
 
 ---
 
-**Questions?** Check the other documentation files in this project or contact the project team.
+*Last updated: October 2025*
