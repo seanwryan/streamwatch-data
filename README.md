@@ -14,8 +14,15 @@ This project transforms 32+ years of StreamWatch environmental monitoring data f
 - **7,339 macroinvertebrate records** (bug collection data)
 - **149 taxonomy records** (bug identification reference)
 - **428 volunteer records** with training status
+- **109 sample dates** with collection tracking
+- **1,326 bug results** from detailed analysis
+- **1,260 RBP100 bug records** for standardized assessment
+- **1,625 bug list entries** with taxonomic details
+- **25 CAT meters** for continuous monitoring
+- **27 WQX sites** for regulatory reporting
+- **1,644 WQX biohabphys records** for compliance data
 
-**Total: 25,684 records** across 6 tables
+**Total: 31,700 records** across 14 tables
 
 ---
 

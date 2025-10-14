@@ -14,8 +14,15 @@ This project transforms 32+ years of StreamWatch environmental monitoring data f
 - **7,339 macroinvertebrate records** (bug collection data)
 - **149 taxonomy records** (bug identification reference)
 - **428 volunteer records** with training status
+- **109 sample dates** with collection tracking
+- **1,326 bug results** from detailed analysis
+- **1,260 RBP100 bug records** for standardized assessment
+- **1,625 bug list entries** with taxonomic details
+- **25 CAT meters** for continuous monitoring
+- **27 WQX sites** for regulatory reporting
+- **1,644 WQX biohabphys records** for compliance data
 
-**Total: 25,684 records** across 6 tables
+**Total: 31,700 records** across 14 tables
 
 ---
 
@@ -72,8 +79,16 @@ postgresql://streamwatch_edit:[PASSWORD]@ep-wild-rice-ad71vs5v-pooler.c-2.us-eas
 | **bugs** | 7,339 | Macroinvertebrate (bug) collection data |
 | **taxonomy** | 149 | Bug identification reference data |
 | **volunteers** | 428 | Volunteer information and training status |
+| **sample_dates** | 109 | Sample collection date tracking |
+| **bug_results** | 1,326 | Detailed bug analysis results |
+| **rbp100_bugs** | 1,260 | RBP100 standardized bug assessment |
+| **bug_list** | 1,625 | Comprehensive bug taxonomic reference |
+| **cat_meters** | 25 | Continuous monitoring equipment |
+| **cat_assignments** | 0 | Meter assignment tracking |
+| **wqx_sites** | 27 | WQX regulatory reporting sites |
+| **wqx_biohabphys** | 1,644 | WQX biological/habitat/physicochemical data |
 
-**Total Records:** 25,684
+**Total Records:** 31,700
 
 ---
 
@@ -136,6 +151,46 @@ print(df)
 - **Key fields:** family, genus_species, ept, tolerance
 - **Example:** Reference data for identifying bug families
 
+### **7. sample_dates**
+- **What it contains:** Sample collection date tracking
+- **Key fields:** sample_id, station, sample_date, sample_code
+- **Example:** Sample "BB1_2014-03-15" collected on 2014-03-15 at station BB1
+
+### **8. bug_results**
+- **What it contains:** Detailed bug analysis results
+- **Key fields:** sample_id, bug_id, family, genus_species, amount
+- **Example:** 7 Asellidae found in sample 1, excluded from analysis
+
+### **9. rbp100_bugs**
+- **What it contains:** RBP100 standardized bug assessment
+- **Key fields:** rbp_id, sample_id, bug_id, family, amount
+- **Example:** RBP assessment showing 3 Asellidae in sample 1
+
+### **10. bug_list**
+- **What it contains:** Comprehensive bug taxonomic reference
+- **Key fields:** bug_id, order_class, family, genus_species, ept, tolerance
+- **Example:** Bug ID 63 (Asellidae) is an EPT species with tolerance value
+
+### **11. cat_meters**
+- **What it contains:** Continuous monitoring equipment
+- **Key fields:** meter_id, volunteer, meter_type, status
+- **Example:** Meter TWI001 assigned to TWI Staff, type CAT, status Active
+
+### **12. cat_assignments**
+- **What it contains:** Meter assignment tracking
+- **Key fields:** meter_id, volunteer, site1, site2, site3, assignment_date
+- **Example:** Meter TWI001 assigned to volunteer for sites SB1, SB2, SB3
+
+### **13. wqx_sites**
+- **What it contains:** WQX regulatory reporting sites
+- **Key fields:** monitoring_location_id, latitude_measure, longitude_measure, huc_code
+- **Example:** Site TWI-SW1 at coordinates 40.218, -74.560 in HUC 20401052100
+
+### **14. wqx_biohabphys**
+- **What it contains:** WQX biological/habitat/physicochemical data
+- **Key fields:** monitoring_location_id, activity_start_date, characteristic_name, result_value
+- **Example:** Biological assessment data for regulatory compliance reporting
+
 ---
 
 ## 📋 **Essential SQL Queries**
@@ -155,6 +210,22 @@ UNION ALL
 SELECT 'taxonomy', COUNT(*) FROM taxonomy
 UNION ALL
 SELECT 'volunteers', COUNT(*) FROM volunteers
+UNION ALL
+SELECT 'sample_dates', COUNT(*) FROM sample_dates
+UNION ALL
+SELECT 'bug_results', COUNT(*) FROM bug_results
+UNION ALL
+SELECT 'rbp100_bugs', COUNT(*) FROM rbp100_bugs
+UNION ALL
+SELECT 'bug_list', COUNT(*) FROM bug_list
+UNION ALL
+SELECT 'cat_meters', COUNT(*) FROM cat_meters
+UNION ALL
+SELECT 'cat_assignments', COUNT(*) FROM cat_assignments
+UNION ALL
+SELECT 'wqx_sites', COUNT(*) FROM wqx_sites
+UNION ALL
+SELECT 'wqx_biohabphys', COUNT(*) FROM wqx_biohabphys
 ORDER BY table_name;
 ```
 
@@ -174,6 +245,46 @@ FROM bacteria
 WHERE collection_date IS NOT NULL
 ORDER BY collection_date DESC
 LIMIT 10;
+```
+
+```sql
+-- Sample dates by station
+SELECT station, COUNT(*) as sample_count, 
+       MIN(sample_date) as first_sample, 
+       MAX(sample_date) as last_sample
+FROM sample_dates 
+WHERE sample_date IS NOT NULL
+GROUP BY station 
+ORDER BY sample_count DESC;
+```
+
+```sql
+-- Bug results summary by family
+SELECT family, COUNT(*) as occurrence_count, 
+       SUM(amount) as total_count,
+       AVG(amount) as avg_count
+FROM bug_results 
+WHERE exclude = false
+GROUP BY family 
+ORDER BY total_count DESC 
+LIMIT 10;
+```
+
+```sql
+-- CAT meter assignments
+SELECT meter_id, volunteer, site1, site2, site3, status
+FROM cat_meters cm
+LEFT JOIN cat_assignments ca ON cm.meter_id = ca.meter_id
+ORDER BY meter_id;
+```
+
+```sql
+-- WQX sites with coordinates
+SELECT monitoring_location_id, monitoring_location_name, 
+       latitude_measure, longitude_measure, huc_twelve_digit_code
+FROM wqx_sites 
+WHERE latitude_measure IS NOT NULL AND longitude_measure IS NOT NULL
+ORDER BY monitoring_location_id;
 ```
 
 ### **Data Quality Checks:**
