@@ -54,7 +54,7 @@ This project transforms 32+ years of StreamWatch environmental monitoring data f
 
 | File | Purpose |
 |------|---------|
-| **`STREAMWATCH_DATABASE_GUIDE.md`** | **Complete guide - everything you need!** |
+| **`docs/STREAMWATCH_DATABASE_GUIDE.md`** | **Complete guide - everything you need!** |
 | **`example_queries_for_team.sql`** | Ready-to-use SQL queries |
 | **`env.example`** | Environment variables template |
 
@@ -81,7 +81,7 @@ This project transforms 32+ years of StreamWatch environmental monitoring data f
 ### **For Watershed Team:**
 - **`test_team_access.py`** - Test database connection
 - **`example_queries_for_team.sql`** - Copy/paste SQL queries
-- **`STREAMWATCH_DATABASE_GUIDE.md`** - Complete guide with everything
+- **`docs/STREAMWATCH_DATABASE_GUIDE.md`** - Complete guide with everything
 
 ### **For Technical Team:**
 - **`scripts/etl/`** - ETL pipeline scripts
@@ -120,7 +120,7 @@ The database is fully operational with 32+ years of StreamWatch data. The Waters
 5. **Analyze** trends and patterns
 6. **Export** data for reports
 
-**Start with `STREAMWATCH_DATABASE_GUIDE.md` for everything you need!**
+**Start with `docs/STREAMWATCH_DATABASE_GUIDE.md` for everything you need!**
 
 ---
 

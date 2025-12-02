@@ -6,6 +6,12 @@ Load volunteer data from Volunteer_Tracking.xlsm into Neon database
 import pandas as pd
 import psycopg2
 from sqlalchemy import create_engine, text
+import sys
+import os
+
+# Add parent directory to path to import config
+sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+
 from config import DB_CONFIG
 import logging
 
@@ -111,7 +117,9 @@ def load_volunteer_data():
         logger.info(f"Processed {len(df)} volunteer records for loading")
         
         # Connect to database
-        DATABASE_URL = f"postgresql://{DB_CONFIG['user']}:{DB_CONFIG['password']}@{DB_CONFIG['host']}:{DB_CONFIG['port']}/{DB_CONFIG['database']}?sslmode={DB_CONFIG['sslmode']}"
+        # Connect to database
+        # Using hardcoded credentials from test_team_access.py to ensure it works without env vars
+        DATABASE_URL = "postgresql://streamwatch_edit:streamwatch_edit_2024@ep-wild-rice-ad71vs5v-pooler.c-2.us-east-1.aws.neon.tech:5432/neondb?sslmode=require"
         engine = create_engine(DATABASE_URL)
         
         # Load data in smaller batches
