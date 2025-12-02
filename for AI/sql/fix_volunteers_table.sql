@@ -3,20 +3,11 @@
 
 BEGIN;
 
--- Step 1: Create backup of existing site_code assignments (if site_code column exists)
--- Note: site_code may not exist in volunteers table if it was already migrated
-DO $$
-BEGIN
-    IF EXISTS (
-        SELECT 1 FROM information_schema.columns 
-        WHERE table_name = 'volunteers' AND column_name = 'site_code'
-    ) THEN
-        CREATE TABLE IF NOT EXISTS volunteer_site_assignments_backup AS
-        SELECT volunteer_id, site_code, start_date as assignment_date
-        FROM volunteers
-        WHERE site_code IS NOT NULL;
-    END IF;
-END $$;
+-- Step 1: Create backup of existing site_code assignments
+CREATE TABLE IF NOT EXISTS volunteer_site_assignments_backup AS
+SELECT volunteer_id, site_code, start_date as assignment_date
+FROM volunteers
+WHERE site_code IS NOT NULL;
 
 -- Step 2: Add missing columns to volunteers table
 ALTER TABLE volunteers ADD COLUMN IF NOT EXISTS perfect_id VARCHAR(50);
@@ -58,28 +49,20 @@ CREATE TABLE IF NOT EXISTS volunteer_assignments (
 CREATE INDEX IF NOT EXISTS idx_assignments_volunteer_id ON volunteer_assignments(volunteer_id);
 CREATE INDEX IF NOT EXISTS idx_assignments_site_code ON volunteer_assignments(site_code);
 
--- Step 5: Migrate existing site_code assignments to volunteer_assignments (if site_code column exists)
-DO $$
-BEGIN
-    IF EXISTS (
-        SELECT 1 FROM information_schema.columns 
-        WHERE table_name = 'volunteers' AND column_name = 'site_code'
-    ) THEN
-        INSERT INTO volunteer_assignments (volunteer_id, site_code, assign_start, is_valid)
-        SELECT 
-            volunteer_id,
-            site_code,
-            COALESCE(start_date, CURRENT_DATE) as assign_start,
-            COALESCE(is_active, true) as is_valid
-        FROM volunteers
-        WHERE site_code IS NOT NULL
-        AND NOT EXISTS (
-            SELECT 1 FROM volunteer_assignments va
-            WHERE va.volunteer_id = volunteers.volunteer_id
-            AND va.site_code = volunteers.site_code
-        );
-    END IF;
-END $$;
+-- Step 5: Migrate existing site_code assignments to volunteer_assignments
+INSERT INTO volunteer_assignments (volunteer_id, site_code, assign_start, is_valid)
+SELECT 
+    volunteer_id,
+    site_code,
+    COALESCE(start_date, CURRENT_DATE) as assign_start,
+    COALESCE(is_active, true) as is_valid
+FROM volunteers
+WHERE site_code IS NOT NULL
+AND NOT EXISTS (
+    SELECT 1 FROM volunteer_assignments va
+    WHERE va.volunteer_id = volunteers.volunteer_id
+    AND va.site_code = volunteers.site_code
+);
 
 -- Step 6: Create visit_attendance table (juncAttendance)
 CREATE TABLE IF NOT EXISTS visit_attendance (
@@ -133,8 +116,6 @@ COMMIT;
 -- WHERE table_schema = 'public'
 -- AND table_name IN ('training', 'volunteer_assignments', 'visit_attendance')
 -- ORDER BY table_name;
-
-
 
 
 

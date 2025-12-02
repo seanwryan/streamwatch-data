@@ -1,127 +1,54 @@
-# StreamWatch Data Pipeline
-**Environmental Monitoring Database for Watershed Institute**
+# StreamWatch Database Project
 
----
+PostgreSQL database for StreamWatch environmental monitoring data.
 
-## 🎯 **Project Overview**
+## Quick Start
 
-This project transforms 32+ years of StreamWatch environmental monitoring data from Excel files into a PostgreSQL database hosted on Neon cloud. The database is fully loaded and ready for data validation, analysis, and reporting.
+1. **Setup:**
+   ```bash
+   cp env.example .env
+   # Edit .env with your database credentials
+   pip install -r requirements.txt
+   ```
 
-**Data includes:**
-- **168 monitoring sites** with GPS coordinates and metadata
-- **16,909 water quality samples** (1992-2024) with pH, temperature, dissolved oxygen, etc.
-- **691 bacteria test results** (E.coli data from 2025)
-- **7,339 macroinvertebrate records** (bug collection data)
-- **149 taxonomy records** (bug identification reference)
-- **428 volunteer records** with training status
-- **109 sample dates** with collection tracking
-- **1,326 bug results** from detailed analysis
-- **1,260 RBP100 bug records** for standardized assessment
-- **1,625 bug list entries** with taxonomic details
-- **25 CAT meters** for continuous monitoring
-- **27 WQX sites** for regulatory reporting
-- **1,644 WQX biohabphys records** for compliance data
+2. **Database Connection:**
+   - Edit access: `streamwatch_edit` user
+   - Read-only access: `streamwatch_readonly` user
+   - See `docs/SECURE_CREDENTIALS.md` for connection details
 
-**Total: 31,700 records** across 14 tables
+## Project Structure
 
----
+- `scripts/etl/` - Data loading scripts
+- `scripts/schema/` - Schema modification scripts
+- `scripts/fixes/` - Data quality fixes
+- `scripts/tools/` - Utility scripts
+- `docs/` - Documentation
+- `data/raw/` - Original Excel files
+- `data/processed/` - Cleaned data files
 
-## 🚀 **Quick Start for Watershed Team**
+## Key Documentation
 
-### **1. Download DBeaver (Recommended)**
-- Go to https://dbeaver.io/
-- Download free Community Edition
-- Install and open
+- `docs/STREAMWATCH_DATABASE_STATUS.md` - Current schema reference
+- `docs/VOLUNTEERS_WATERSHED_REQUIREMENTS_CHECKLIST.md` - Volunteers table status
+- `docs/DATABASE_RELATIONSHIPS.md` - Table relationships
+- `docs/PROJECT_STRUCTURE.md` - Detailed project organization
 
-### **2. Connect to Database**
-- Click "New Database Connection" → "PostgreSQL"
-- **Host:** `ep-wild-rice-ad71vs5v-pooler.c-2.us-east-1.aws.neon.tech`
-- **Port:** `5432`
-- **Database:** `neondb`
-- **Username:** `streamwatch_edit` (for full access)
-- **Password:** `streamwatch_edit_2024`
-- **SSL:** Check "Use SSL"
-- Test connection → Finish
+## Database Tables
 
-### **3. Start Exploring**
-- Expand connection → `neondb` → `Schemas` → `public` → `Tables`
-- Right-click any table → "View Data"
-- Use the SQL editor to run queries
+**Core Tables (7):** sites, samples, bugs, bacteria, volunteers, taxonomy, chemical  
+**Legacy Tables (8):** sample_dates, bug_results, rbp100_bugs, bug_list, cat_meters, cat_assignments, wqx_sites, wqx_biohabphys  
+**System Tables (1):** users  
+**Relationship Tables (3):** training, volunteer_assignments, visit_attendance
 
----
+**Total: 19 tables**
 
-## 📚 **Documentation**
+## Current Status
 
-| File | Purpose |
-|------|---------|
-| **`docs/STREAMWATCH_DATABASE_GUIDE.md`** | **Complete guide - everything you need!** |
-| **`example_queries_for_team.sql`** | Ready-to-use SQL queries |
-| **`env.example`** | Environment variables template |
+- ✅ All 14 data tables loaded
+- ✅ Volunteers table aligned with Watershed requirements
+- ✅ Relationship tables populated (training: 167, assignments: 56)
+- ✅ Data quality fixes applied
 
----
+## For AI Context
 
-## 🔑 **Database Access**
-
-### **Edit User (Full Access)**
-- **Username:** `streamwatch_edit`
-- **Password:** `[Contact team for password]`
-- **Permissions:** Read, write, create, delete
-
-### **Read-Only User (View Only)**
-- **Username:** `streamwatch_readonly`
-- **Password:** `[Contact team for password]`
-- **Permissions:** Read only
-
-**🔐 Credentials are shared securely - contact the team for access**
-
----
-
-## 🛠️ **Tools & Scripts**
-
-### **For Watershed Team:**
-- **`test_team_access.py`** - Test database connection
-- **`example_queries_for_team.sql`** - Copy/paste SQL queries
-- **`docs/STREAMWATCH_DATABASE_GUIDE.md`** - Complete guide with everything
-
-### **For Technical Team:**
-- **`scripts/etl/`** - ETL pipeline scripts
-- **`scripts/tools/`** - Database utilities
-- **`config.py`** - Database configuration
-- **`requirements.txt`** - Python dependencies
-
----
-
-## 📊 **Current Status**
-
-### **✅ Completed:**
-- ✅ Neon PostgreSQL database created and configured
-- ✅ All 6 tables created with proper schema
-- ✅ 25,684 records loaded successfully
-- ✅ Read-only and edit users created
-- ✅ Connection tested and verified
-- ✅ Documentation created
-
-### **🎯 Ready for:**
-- Data validation by the Watershed team
-- Data quality checks and corrections
-- Analysis and reporting
-- Dashboard development
-
----
-
-## 🎉 **You're Ready!**
-
-The database is fully operational with 32+ years of StreamWatch data. The Watershed team can now:
-
-1. **Connect** using DBeaver or pgAdmin
-2. **Explore** all the data tables
-3. **Validate** data quality
-4. **Make corrections** as needed
-5. **Analyze** trends and patterns
-6. **Export** data for reports
-
-**Start with `docs/STREAMWATCH_DATABASE_GUIDE.md` for everything you need!**
-
----
-
-*Last updated: October 2025*
+See `for AI/` folder for complete project context package.
