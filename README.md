@@ -48,7 +48,3 @@ PostgreSQL database for StreamWatch environmental monitoring data.
 - ✅ Volunteers table aligned with Watershed requirements
 - ✅ Relationship tables populated (training: 167, assignments: 56)
 - ✅ Data quality fixes applied
-
-## For AI Context
-
-See `for AI/` folder for complete project context package.

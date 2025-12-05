@@ -50,9 +50,8 @@
 - `scripts/tools/` - 4 utility scripts
 - `scripts/visualization/` - 1 dashboard script
 
-**Documentation (14 markdown files):**
-- `docs/` - 9 current documentation files
-- `docs/archive/` - 4 historical files
+**Documentation:**
+- `docs/` - Current documentation files
 
 **Data:**
 - `data/raw/` - 10 Excel files

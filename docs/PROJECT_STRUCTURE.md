@@ -50,17 +50,7 @@ streamwatch-data/
 │   ├── VOLUNTEERS_STATUS_DEC5.md     # Meeting prep
 │   ├── VOLUNTEERS_WATERSHED_REQUIREMENTS_CHECKLIST.md
 │   ├── VOLUNTEER_TOOLS_README.md
-│   ├── SECURE_CREDENTIALS.md
-│   └── archive/                       # Historical docs
-│
-├── for AI/                            # Context package for AI tools
-│   ├── README.md
-│   ├── scripts/                       # All scripts
-│   ├── docs/                          # All documentation
-│   ├── data/                          # All data files
-│   └── config/                        # Config files
-│
-└── logs/                              # Log files
+│   └── SECURE_CREDENTIALS.md
 ```
 
 ## Key Scripts by Purpose
@@ -91,9 +81,6 @@ streamwatch-data/
 - `docs/STREAMWATCH_DATABASE_STATUS.md` - Current schema reference
 - `docs/VOLUNTEERS_WATERSHED_REQUIREMENTS_CHECKLIST.md` - Volunteers alignment status
 - `docs/VOLUNTEERS_STATUS_DEC5.md` - Meeting preparation
-
-**Archived:**
-- `docs/archive/` - Historical documentation
 
 ## Data Files
 
