@@ -64,6 +64,27 @@ PostgreSQL does **not** have built-in form creation capabilities like FileMaker 
 **Database:** `neondb`  
 **Region:** US East (AWS)
 
+### Database User Accounts
+
+There are **three user accounts** with different permission levels:
+
+1. **Database Owner** (`neondb_owner` or similar)
+   - **Permissions:** Full access including ALTER TABLE, CREATE, DROP
+   - **Use:** Schema changes, creating users, administrative tasks
+   - **Note:** This is the account you've been using for database management
+
+2. **Edit User** (`streamwatch_edit`)
+   - **Permissions:** Read, write, create, delete (but cannot ALTER TABLE)
+   - **Password:** `streamwatch_edit_2024`
+   - **Use:** Regular data entry and editing via forms
+
+3. **Read-Only User** (`streamwatch_readonly`)
+   - **Permissions:** Read-only access
+   - **Password:** `streamwatch_readonly_2024`
+   - **Use:** Data viewing and reporting
+
+**For form builders:** Use `streamwatch_edit` for forms that need to write data, or `streamwatch_readonly` for read-only dashboards.
+
 ### Is It Free?
 
 **Yes, Neon offers a free tier:**
@@ -85,7 +106,7 @@ PostgreSQL does **not** have built-in form creation capabilities like FileMaker 
 **Yes, publicly accessible** but secured with:
 - SSL/TLS encryption (required for all connections)
 - Username/password authentication
-- Two user accounts: `streamwatch_edit` (full access) and `streamwatch_readonly` (read-only)
+- Role-based access control (different permissions per user)
 
 ### Database Status
 
