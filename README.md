@@ -1,8 +1,15 @@
 # StreamWatch Database Project
 
-PostgreSQL database for StreamWatch environmental monitoring data.
+PostgreSQL database and web app for StreamWatch (Watershed Institute) environmental monitoring data.
 
-## Quick Start
+## Repo structure
+
+- **`app/`** — Next.js web app (dashboards, read-only API, future forms). Run from `app/` with `npm install` then `npm run dev`. See `app/README.md`.
+- **`scripts/`** — ETL, schema, fixes, tools (Python).
+- **`docs/`** — Schema, relationships, guides.
+- **`data/raw/`** — Source Excel files.
+
+## Quick Start (database / ETL)
 
 1. **Setup:**
    ```bash
@@ -16,8 +23,9 @@ PostgreSQL database for StreamWatch environmental monitoring data.
    - Read-only access: `streamwatch_readonly` user
    - See `docs/SECURE_CREDENTIALS.md` for connection details
 
-## Project Structure
+## Project structure
 
+- `app/` - Next.js web app (run from `app/`; see `app/README.md`)
 - `scripts/etl/` - Data loading scripts
 - `scripts/schema/` - Schema modification scripts
 - `scripts/fixes/` - Data quality fixes
@@ -42,9 +50,10 @@ PostgreSQL database for StreamWatch environmental monitoring data.
 
 **Total: 19 tables**
 
-## Current Status
+## Current status
 
 - ✅ All 14 data tables loaded
 - ✅ Volunteers table aligned with Watershed requirements
 - ✅ Relationship tables populated (training: 167, assignments: 56)
 - ✅ Data quality fixes applied
+- ✅ Next.js app in `app/` (Phase 2): read-only API and home page with stats + sites table
